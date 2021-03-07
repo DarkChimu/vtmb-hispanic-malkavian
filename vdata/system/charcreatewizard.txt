@@ -148,13 +148,13 @@ CharCreateWizard
 
 		Trait
 		{
-			"Name"		"Combat"
+			"Name"		"Combate"
 			"InternalName"	"Combat"
 		}
 
 		Trait
 		{
-			"Name"		"Non-Combat"
+			"Name"		"No-Combate"
 			"InternalName"	"Non-Combat"
 		}
 
@@ -166,31 +166,31 @@ CharCreateWizard
 
 		Trait
 		{
-			"Name"		"Stealth"
+			"Name"		"Sigilo"
 			"InternalName"	"Stealth"
 		}
 
 		Trait
 		{
-			"Name"		"Intellect"
+			"Name"		"Intelecto"
 			"InternalName"	"Intellect"
 		}
 
 		Trait
 		{
-			"Name"		"Unarmed"
+			"Name"		"Desarmado"
 			"InternalName"	"Unarmed"
 		}
 
 		Trait
 		{
-			"Name"		"Armed"
+			"Name"		"Armado"
 			"InternalName"	"Armed"
 		}
 
 		Trait
 		{
-			"Name"		"Ranged"
+			"Name"		"Distancia"
 			"InternalName"	"Ranged"
 		}
 
@@ -578,13 +578,13 @@ CharCreateWizard
 		Popup
 		{
 			// Choose the gender for your character
-			"Text"		"Would you like your character to be..."
+			"Text"		"Te gustaria ser..."
 
 			"InternalName"	"Trait_Male_vs_Female"
 
 			Action
 			{
-				"Text"		"1. Male?"
+				"Text"		"1. Hombre"
 				"SetGenderMale"	"1"
 				"Next"		"Trait_Combat_vs_Non-Combat"
 
@@ -599,7 +599,7 @@ CharCreateWizard
 
 			Action
 			{
-				"Text"		"2. Female?"
+				"Text"		"2. Mujer"
 				"SetGenderFemale"	"1"
 				"Next"		"Trait_Combat_vs_Non-Combat"
 
@@ -616,7 +616,7 @@ CharCreateWizard
 		Popup
 		{
 			// Combat vs Non-Combat #1
-			"Text"		"As you're walking home late at night, you hear footsteps, glance back, and suddenly realize someone is following you. Do you..."
+			"Text"		"De noche, mientras estas volviendo a casa, oyes pasos. Miras atras, y de repente te das cuenta de que alguien te sigue. Tu..."
 
 			"InternalName"	"Trait_Combat_vs_Non-Combat"
 
@@ -640,14 +640,14 @@ CharCreateWizard
 					"MaxVal"	"0"
 				}
 
-				"Text"	"1. Turn to confront them?"
+				"Text"	"1. Te giras para enfrentarlo."
 				"Trait"	"Combat"
 				"Next"	"Trait_Social_vs_Stealth_vs_Intellect"
 			}
 
 			Action
 			{
-				"Text"	"2. Duck behind a tree to lose them?"
+				"Text"	"2. Te escondes tras un arbol para despistarlo."
 				"Trait"	"Non-Combat"
 				"Next"	"Trait_Social_vs_Stealth_vs_Intellect"
 			}
@@ -671,7 +671,7 @@ CharCreateWizard
 					"Height"	"70"
 				}
 
-				"Text"	"1. Turn to confront them?"
+				"Text"	"1. Te giras para enfrentarlo."
 				"Trait"	"Combat"
 				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 			}
@@ -680,7 +680,7 @@ CharCreateWizard
 		Popup
 		{
 			// Combat vs Non-Combat #2
-			"Text"		"While in a club, you spot your ex-roommate who skipped out after taking your stuff and leaving you with a stack of bills. He looks dead drunk. Do you..."
+			"Text"		"Mientras estas en un club, ves a tu ex-roomie que te dejo tirado llevandose cosas tuyas y debiendote dinero. Parece jodidamente borracho. Tu..."
 
 			"InternalName"	"Trait_Combat_vs_Non-Combat"
 
@@ -704,14 +704,14 @@ CharCreateWizard
 					"MaxVal"	"0"
 				}
 
-				"Text"	"1. Grab him by the head and repeatedly bash his face into the bar?"
+				"Text"	"1. Le agarras la cabeza y se la estampas repetidamente contra la barra."
 				"Trait"	"Combat"
 				"Next"	"Trait_Social_vs_Stealth_vs_Intellect"
 			}
 
 			Action
 			{
-				"Text"	"2. Call the cops. See you in court, buddy?" 
+				"Text"	"2. Llamas a la policia.  Te vere en la corte, amigo." 
 				"Trait"	"Non-Combat"
 				"Next"	"Trait_Social_vs_Stealth_vs_Intellect"
 			}
@@ -735,7 +735,7 @@ CharCreateWizard
 					"Height"	"70"
 				}
 
-				"Text"	"1. Grab him by the head and repeatedly bash his face into the bar?"
+				"Text"	"1. Le agarras la cabeza y se la estampas repetidamente contra la barra."
 				"Trait"	"Combat"
 				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 			}
@@ -744,7 +744,7 @@ CharCreateWizard
 		Popup
 		{
 			// Combat vs Non-Combat #3
-			"Text"		"You're in a convenience store, looking through the beer freezer, when all of a sudden a man walks in and pulls a gun on the cashier. Do you..."
+			"Text"		"Estas en una tienda, mirando un mostrador frigorifico con cervezas, cuando de repente un hombre entra y apunta con una pistola al cajero. Tu..."
 
 			"InternalName"	"Trait_Combat_vs_Non-Combat"
 
@@ -768,14 +768,14 @@ CharCreateWizard
 					"MaxVal"	"0"
 				}
 
-				"Text"	"1. Sneak up behind him, disarm him, and proceed to beat him senseless?"
+				"Text"	"1. Te acercas por la espalda a escondidas, lo desarmas, y empiezas a golpearlo hasta dejarlo inconciente."
 				"Trait"	"Combat"
 				"Next"	"Trait_Social_vs_Stealth_vs_Intellect"
 			}
 
 			Action
 			{
-				"Text"	"2. Quietly make your way to the bathroom and lock yourself in?"
+				"Text"	"2. Te diriges hacia el retrete en silencio y te encierras."
 				"Trait"	"Non-Combat"
 				"Next"	"Trait_Social_vs_Stealth_vs_Intellect"
 			}
@@ -799,7 +799,7 @@ CharCreateWizard
 					"Height"	"70"
 				}
 
-				"Text"	"1. Sneak up behind him, disarm him, and proceed to beat him senseless?"
+				"Text"	"1. Te acercas por la espalda a escondidas, lo desarmas, y empiezas a golpearlo hasta dejarlo inconciente."
 				"Trait"	"Combat"
 				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 			}
@@ -808,7 +808,8 @@ CharCreateWizard
 		Popup
 		{
 			// Combat vs Non-Combat #4
-			"Text"		"You're stuck in traffic after a concert and the guy behind you is laying on the horn. Your friends in the car are urging you to park the car and help them stick the dude's horn somewhere uncomfortable. Do you..."
+			"Text"		"			"Text"		"Estas en un atrapado en el trafico despues de un concierto y el chico que hay detrás de ti no para de hacer sonar la bocina. Tus amigos en el coche te animan a que aparques y les ayudes a meterle esa bocina en algún incomodo lugar. Tu..."
+"
 
 			"InternalName"	"Trait_Combat_vs_Non-Combat"
 
@@ -832,14 +833,14 @@ CharCreateWizard
 					"MaxVal"	"0"
 				}
 
-				"Text"	"1. Get out, pull the guy out of the car, and put him in the hospital?"
+				"Text"	"1. Sales, lo sacas del coche y lo envias al hospital."
 				"Trait"	"Combat"
 				"Next"	"Trait_Social_vs_Stealth_vs_Intellect"
 			}
 
 			Action
 			{
-				"Text"	"2. Talk your friends down - you don't need a lawsuit or jail time?"
+				"Text"	"2. Tranquilizas a tus amigos. No te apetece tener un pleito ni ir a la carcel"
 				"Trait"	"Non-Combat"
 				"Next"	"Trait_Social_vs_Stealth_vs_Intellect"
 			}
@@ -863,7 +864,7 @@ CharCreateWizard
 					"Height"	"70"
 				}
 
-				"Text"	"1. Get out, pull the guy out of the car, and put him in the hospital?"
+				"Text"	"1. Sales, lo sacas del coche y lo envias al hospital."
 				"Trait"	"Combat"
 				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 			}
@@ -872,7 +873,7 @@ CharCreateWizard
 		Popup // restored by wesp
 		{
 			// Combat vs Non-Combat #5
-			"Text"		"You are in a hospital, looking for the doctor who's late on his blood payments. A nurse steps in front of you and says, \"You can't go in there! It's restricted to medical staff only.\" Do you..."
+			"Text"		"Estas en un hospital, buscando a un doctor que se retrasa con sus pagos de sangre. Una enfermera se para frente a ti y te dice: 'No puede entrar ahi! Esta restringido a personal medico'. Tu..."
 
 			"InternalName"	"Trait_Combat_vs_Non-Combat"
 
@@ -896,14 +897,14 @@ CharCreateWizard
 					"MaxVal"	"0"
 				}
 
-				"Text"	"1. Toss her aside like a rag doll and keep going?"
+				"Text"	"1. La empujas a un lado como si fuera un maniqui y sigues adelante."
 				"Trait"	"Combat"
 				"Next"	"Trait_Social_vs_Stealth_vs_Intellect"
 			}
 
 			Action
 			{
-				"Text"	"2. Show her your fangs and send her fleeing in fear for her life?"
+				"Text"	"2. Le muestras tus colmillos, haciendola huir temiendo por su vida."
 				"Trait"	"Non-Combat"
 				"Next"	"Trait_Social_vs_Stealth_vs_Intellect"
 			}
@@ -927,7 +928,7 @@ CharCreateWizard
 					"Height"	"70"
 				}
 
-				"Text"	"1. Toss her aside like a rag doll and keep going?"
+				"Text"	"1. La empujas a un lado como si fuera un maniqui y sigues adelante."
 				"Trait"	"Combat"
 				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 			}
@@ -936,7 +937,8 @@ CharCreateWizard
 		Popup // restored by wesp
 		{
 			// Combat vs Non-Combat #6
-			"Text"		"Some drunken mortals attempt to pick a fight with you in a bar. Do you..."
+			"Text"		"Unos cuantos borrachos intentan buscar pelea contigo en un bar. Tu..."
+
 
 			"InternalName"	"Trait_Combat_vs_Non-Combat"
 
@@ -960,14 +962,14 @@ CharCreateWizard
 					"MaxVal"	"0"
 				}
 
-				"Text"	"1. Trash the place with the fools' broken bodies?"
+				"Text"	"1. Destrozas el lugar con los destrozados cuerpos de los imbeciles."
 				"Trait"	"Combat"
 				"Next"	"Trait_Social_vs_Stealth_vs_Intellect"
 			}
 
 			Action
 			{
-				"Text"	"2. Clear the place out with a mere wave of your hand?"
+				"Text"	"2. Despejas el lugar con un simple movimiento de tu mano."
 				"Trait"	"Non-Combat"
 				"Next"	"Trait_Social_vs_Stealth_vs_Intellect"
 			}
@@ -991,7 +993,7 @@ CharCreateWizard
 					"Height"	"70"
 				}
 
-				"Text"	"1. Trash the place with the fools' broken bodies?"
+				"Text"	"1. Destrozas el lugar con los destrozados cuerpos de los imbeciles."
 				"Trait"	"Combat"
 				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 			}
@@ -1000,7 +1002,7 @@ CharCreateWizard
 		Popup
 		{
 			// Social vs Stealth vs Intellect #1
-			"Text"		"You're at a nightclub, having a damned good time, when you realize you're out of money - no cash, no fun. Do you..."
+			"Text"		"Estas en un club nocturno, pasando un jodido buen rato, cuando te das cuenta de que te falta dinero... si no hay dinero, no hay diversion. Tu..."
 
 			"InternalName"	"Trait_Social_vs_Stealth_vs_Intellect"
 
@@ -1012,21 +1014,21 @@ CharCreateWizard
 
 			Action
 			{
-				"Text"	"1. Seduce somebody and have them pay for your drinks?"
+				"Text"	"1. Seduces a alguien y que vaya pagando tus bebidas"
 				"Trait"	"Social"
 				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 			}
 
 			Action
 			{
-				"Text"	"2. Time it just right so you can snatch a bottle when the bartender isn't looking?"
+				"Text"	"2. Es el momento preciso para robar una botella ahora que el camarero no esta mirando"
 				"Trait"	"Stealth"
 				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 			}
 
 			Action
 			{
-				"Text"	"3. Go home and read a book or listen to music - something more intellectually stimulating than wasting life in a lame club?"
+				"Text"	"3. Te vas a casa y lees un libro o te pones a escuchar musica... algo intelectualmente mas estimulante que perder el tiempo en una mierda de club."
 				"Trait"	"Intellect"
 				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 			}
@@ -1035,7 +1037,7 @@ CharCreateWizard
 		Popup
 		{
 			// Social vs Stealth vs Intellect #2
-			"Text"		"A bouncer at the opening of an exclusive nightclub won't let you inside to party with all the beautiful people. Do you..."
+			"Text"		"Un portero, en la inauguracion de un exclusivo club nocturno, no te deja entrar a la fiesta con toda la gente elegante. Tu..."
 
 			"InternalName"	"Trait_Social_vs_Stealth_vs_Intellect"
 
@@ -1047,21 +1049,21 @@ CharCreateWizard
 
 			Action
 			{
-				"Text"	"1. Convince him you work for that director, you know who - and you'll bring him with you next time?"
+				"Text"	"1. Le convences de que trabajas para aquel director de cine, ya sabes quien... y que vas a traerlo contigo la proxima vez."
 				"Trait"	"Social"
 				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 			}
 
 			Action
 			{
-				"Text"	"2. Hide out by the back exit, wait for someone to leave, and then slip in undetected?"
+				"Text"	"2. Te escondes junto a la puerta trasera, esperas a que alguien salga y entonces te deslizas sin ser visto."
 				"Trait"	"Stealth"
 				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 			}
 
 			Action
 			{
-				"Text"	"3. Bribe him - everyone has got their price, and it's worth it to get to know the kind of people inside?"
+				"Text"	"3. Todo el mundo tiene su precio, y merece la pena pagarlo por conocer el tipo de gente que hay dentro."
 				"Trait"	"Intellect"
 				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 			}
@@ -1070,7 +1072,7 @@ CharCreateWizard
 		Popup
 		{
 			// Social vs Stealth vs Intellect #3
-			"Text"		"You're outbid at an auction for a macabre piece of art that you just must have. You know the collector who won it - you've even been to his house. Do you..."
+			"Text"		"Eres sobrepujado en una subasta por una macabra pieza de arte que tiene que ser tuya. Conoces al coleccionista quien la gano... incluso has estado en su casa. Tu..."
 
 			"InternalName"	"Trait_Social_vs_Stealth_vs_Intellect"
 
@@ -1082,21 +1084,21 @@ CharCreateWizard
 
 			Action
 			{
-				"Text"	"1. Get a few drinks into him later on and persuade him to sell it to you?"
+				"Text"	"1. Lo invitas a unas cuantas copas y lo persuades para que te la venda."
 				"Trait"	"Social"
 				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 			}
 
 			Action
 			{
-				"Text"	"2. Wait until he leaves, find his spare key, and make it look like a robbery?"
+				"Text"	"2. Esperas hasta que se vaya, encuentras un duplicado de la llave de su casa, y haces que parezca un robo."
 				"Trait"	"Stealth"
 				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 			}
 
 			Action
 			{
-				"Text"	"3. Write an unflattering critique on the artist, get it published, and just wait for your friend to try to unload it?"
+				"Text"	"3. Escribes una critica nefasta contra el artista, haces que se publique, y esperas simplemente a que tu amigo se deshaga de la pieza."
 				"Trait"	"Intellect"
 				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 			}
@@ -1105,7 +1107,7 @@ CharCreateWizard
 		Popup
 		{
 			// Social vs Stealth vs Intellect #4
-			"Text"		"You met someone at a club and they took you back to their place. Things start getting interesting when all of a sudden you hear someone come in the front door - their spouse. Do you..."
+			"Text"		"Conoces a alguien en un club y te lleva a su casa. Las cosas comienzan a ponerse interesantes cuando de repente oyes a alguien entrando por la puerta principal. Es su conyuge. Tu..."
 
 			"InternalName"	"Trait_Social_vs_Stealth_vs_Intellect"
 
@@ -1117,21 +1119,21 @@ CharCreateWizard
 
 			Action
 			{
-				"Text"	"1. Head to the kitchen, let them see you, pretend you're a distant cousin and they were nice enough to let you stay on the couch?"
+				"Text"	"1. Te diriges a la cocina, te dejas ver, te haces pasar por un pariente lejano y han sido tan amables que te permiten dormir en el sofa."
 				"Trait"	"Social"
 				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 			}
 
 			Action
 			{
-				"Text"	"2. Gather up your clothes, hide behind the door, and slip out of the apartment as quietly as possible?"
+				"Text"	"2. Recoges la ropa, te ocultas tras la puerta y sales del apartamento lo mas silenciosamente posible."
 				"Trait"	"Stealth"
 				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 			}
 
 			Action
 			{
-				"Text"	"3. Calmly explain you had no idea they were married and that you intend to leave and never come back - keeping your finger over the speed dial, in case you need the police?"
+				"Text"	"3. Tranquilamente explicas que no tenias ni idea de que estuvieran casados y que pretendes salir y no volver mas... manteniendo los dedos en el marcado rápido, en caso de necesitar a la policia."
 				"Trait"	"Intellect"
 				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 			}
@@ -1140,7 +1142,7 @@ CharCreateWizard
 		Popup // restored by wesp
 		{
 			// Social vs Stealth vs Intellect #5
-			"Text"		"A vampire hunter has chased you into a crowd of mortals. Do you..."
+			"Text"		"Un cazador de vampiros te ha perseguido por entre una gran multitud de mortales. Tu..."
 
 			"InternalName"	"Trait_Social_vs_Stealth_vs_Intellect"
 
@@ -1152,21 +1154,21 @@ CharCreateWizard
 
 			Action
 			{
-				"Text"	"1. Reveal your supernatural presence, blinding everyone in the vicinity?"
+				"Text"	"1. Revelas tu presencia sobrenatural, cegando a todos a tu alrededor."
 				"Trait"	"Social"
 				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 			}
 
 			Action
 			{
-				"Text"	"2. Fade into the crowd and disappear from sight?"
+				"Text"	"2. Te escabulles entre la multitud y te pierdes de vista."
 				"Trait"	"Stealth"
 				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 			}
 
 			Action
 			{
-				"Text"	"3. Use your ability to read mortals' minds and stay far away from any sensation of hostility?"
+				"Text"	"3. Usas tu habilidad para leer la mente de los mortales y permaneces lejos de cualquier sensacion de hostilidad."
 				"Trait"	"Intellect"
 				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 			}
@@ -1175,7 +1177,7 @@ CharCreateWizard
 		Popup	// restored by wesp
 		{
 			// Social vs Stealth vs Intellect #6
-			"Text"		"You just started playing that new cool computer game but it is full of bugs. Do you..."
+			"Text"		"Empezaste a jugar ese genial juego nuevo de computadora pero esta lleno de bugs. Tu..."
 
 			"InternalName"	"Trait_Social_vs_Stealth_vs_Intellect"
 
@@ -1187,21 +1189,21 @@ CharCreateWizard
 
 			Action
 			{
-				"Text"	"1. Get onto several forums and complain about the issues."
+				"Text"	"1. Entras en diversos foros y empiezas a quejarte de los bugs"
 				"Trait"	"Social"
 				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 			}
 
 			Action
 			{
-				"Text"	"2. Email the developers themselves to get the game fixed."
+				"Text"	"2. Le envias un email a los desarrolladores para que el juego sea arreglado"
 				"Trait"	"Stealth"
 				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 			}
 
 			Action
 			{
-				"Text"	"3. Decide to look into the code yourself to patch it up."
+				"Text"	"3. Decides mirar el codigo del juego y lo parcheas tu mismo."
 				"Trait"	"Intellect"
 				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 			}
@@ -1211,7 +1213,7 @@ CharCreateWizard
 		Popup
 		{
 			// Unarmed vs Armed vs Ranged #1
-			"Text"		"You were mugged last night. It wasn't life-threatening, but you want to take some measures to make sure that if it happens again, you aren't defenseless. Do you..."
+			"Text"		"Fuiste atracado la pasada noche. Tu vida no corrio peligro, pero quieres tomar algunas medidas para asegurarte de que si ocurre de nuevo, no estaras indefenso. Tu..."
 
 			"InternalName"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 
@@ -1223,21 +1225,21 @@ CharCreateWizard
 
 			Action
 			{
-				"Text"	"1. Sign up for a martial arts class - next time they try it, you'll break their spine?"
+				"Text"	"1. Te apuntas a clases de artes marciales. La proxima vez que lo intenten, les romperas la columna vertebral."
 				"Trait"	"Unarmed"
 				"Next"	"Trait_Combat_vs_Non-Combat"
 			}
 
 			Action
 			{
-				"Text"	"2. Start carrying a knife and conceal it in your belt - next person who tries it breathes through a hole in their neck?"
+				"Text"	"2. Empiezas a llevar un cuchillo y lo ocultas en tu cinturon. La proxima persona que lo intente tendrá que respirar por un agujero en el cuello."
 				"Trait"	"Armed"
 				"Next"	"Trait_Combat_vs_Non-Combat"
 			}
 
 			Action
 			{
-				"Text"	"3. Buy a gun - the next mugger is sidewalk meat?"
+				"Text"	"3. Compras una pistola. El proximo atracador es carne de acera."
 				"Trait"	"Ranged"
 				"Next"	"Trait_Combat_vs_Non-Combat"
 			}
@@ -1246,7 +1248,7 @@ CharCreateWizard
 		Popup
 		{
 			// Unarmed vs Armed vs Ranged #2
-			"Text"		"Being a \"night person\", you watch a lot of late-night TV movies. Three movies are on - which one do you watch?"
+			"Text"		"Siendo una 'persona nocturna', ves un monton de peliculas de madrugada. Estan echando tres peliculas, ¿cual veras?"
 
 			"InternalName"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 
@@ -1258,21 +1260,21 @@ CharCreateWizard
 
 			Action
 			{
-				"Text"	"1. Fist of the Monkey King - a wire Fu film with that scene where Wu beats twenty armed men with his bare hands?"
+				"Text"	"1. El Puño del Rey Mono, una película de Kung-fu con una escena donde Wu vence a veinte hombres armados con solo sus manos desnudas."
 				"Trait"	"Unarmed"
 				"Next"	"Trait_Combat_vs_Non-Combat"
 			}
 
 			Action
 			{
-				"Text"	"2. Sword of the Bushi - Japanese film where a lone samurai cuts a path through a gang of yakuza?"
+				"Text"	"2. Espada del Bushi. Película japonesa donde un solitario samurai se abre camino a travez de una banda yakuza."
 				"Trait"	"Armed"
 				"Next"	"Trait_Combat_vs_Non-Combat"
 			}
 
 			Action
 			{
-				"Text"	"3. Sgt. Murderstein III - the cop that doesn't play by the rules takes on the drug cartel that kidnapped his daughter with only his trusty .44 to back him up?"
+				"Text"	"3. Sargento Murderstein III. El policia que no sigue las reglas se enfrenta a un cártel de la droga que secuestro a su hija, con solo su leal calibre 0.44 como apoyo."
 				"Trait"	"Ranged"
 				"Next"	"Trait_Combat_vs_Non-Combat"
 			}
@@ -1281,7 +1283,7 @@ CharCreateWizard
 		Popup
 		{
 			// Unarmed vs Armed vs Ranged #3
-			"Text"		"It's late, you're at the Red Spot, waiting for your microwave burrito to heat up. There are three arcade games to waste some time on. Which one do you play?"
+			"Text"		"Es tarde y estas en el Red Spot, esperando a que tu burrito se caliente en el microondas. Hay tres maquinas recreativas con las que pasar el tiempo. ¿A cual juegas?"
 
 			"InternalName"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 
@@ -1293,21 +1295,21 @@ CharCreateWizard
 
 			Action
 			{
-				"Text"	"1. The fighting game - I pull off the triple flash uppercut as a finisher every time?"
+				"Text"	"1. Al juego de peleas. Cada vez consigo acabar con el fulminante triple gancho como golpe definitivo."
 				"Trait"	"Unarmed"
 				"Next"	"Trait_Combat_vs_Non-Combat"
 			}
 
 			Action
 			{
-				"Text"	"2. That beat-em-up game where you can pick up the bat and whomp on the hordes of generic thugs?"
+				"Text"	"2. A aquel beat'em up donde puedes coger un bate del suelo y usarlo sobre hordas de matones genericos."
 				"Trait"	"Armed"
 				"Next"	"Trait_Combat_vs_Non-Combat"
 			}
 
 			Action
 			{
-				"Text"	"3. That sniper game with the realistic gun for a controller?"
+				"Text"	"3. A aquel juego de francotiradores con el mando como un arma de verdad"
 				"Trait"	"Ranged"
 				"Next"	"Trait_Combat_vs_Non-Combat"
 			}
@@ -1316,7 +1318,7 @@ CharCreateWizard
 		Popup
 		{
 			// Unarmed vs Armed vs Ranged #4
-			"Text"		"An intruder has broken into your house and has entered the room. You have no choice but to confront them. Do you..."
+			"Text"		"Un intruso ha irrumpido en tu casa y ha entrado en la habitacion. No hay otra opcion que enfrentarte a el. Tu..."
 
 			"InternalName"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 
@@ -1328,21 +1330,21 @@ CharCreateWizard
 
 			Action
 			{
-				"Text"	"1. Overpower and wrestle them to the ground, breaking as many bones as possible?"
+				"Text"	"1. Te lanzas sobre el y lo tiras al suelo, rompiendole tantos huesos como sea posible."
 				"Trait"	"Unarmed"
 				"Next"	"Trait_Combat_vs_Non-Combat"
 			}
 
 			Action
 			{
-				"Text"	"2. Grab the heavy lamp next to your bed and smash their face in?"
+				"Text"	"2. Coges la pesada lampara que hay al lado de tu cama y le golpeas con ella en la cabeza."
 				"Trait"	"Armed"
 				"Next"	"Trait_Combat_vs_Non-Combat"
 			}
 
 			Action
 			{
-				"Text"	"3. Grab your gun and fire into them - you keep one next to the bed for this very reason?"
+				"Text"	"3. Coges la pistola y le disparas. Tienes una cerca de la cama para estas ocasiones."
 				"Trait"	"Ranged"
 				"Next"	"Trait_Combat_vs_Non-Combat"
 			}
@@ -1351,7 +1353,7 @@ CharCreateWizard
 		Popup // restored by wesp
 		{
 			// Unarmed vs Armed vs Ranged #5
-			"Text"		"You're heading downtown to meet with some Nosferatu in the alley behind that Chinese restaurant. He has some valuable information to sell. You're not expecting any trouble, but you can never be too careful. Do you..."
+			"Text"		"Te estas dirigiendo al centro para encontrarte con cierto Nosferatu en el callejon, tras ese restaurante chino. Tiene una valiosa informacion que vender. No esperas que haya problemas, pero nunca se es lo suficientemente cuidadoso. Tu..."
 
 			"InternalName"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 
@@ -1363,21 +1365,21 @@ CharCreateWizard
 
 			Action
 			{
-				"Text"	"1. Take no weapons that might spook your contact, trusting in your supernatural strength to handle any problems?"
+				"Text"	"1. No llevas armas que puedan asustar a tu contacto, pues confias en tu fuerza sobrenatural para controlar cualquier problema."
 				"Trait"	"Unarmed"
 				"Next"	"Trait_Combat_vs_Non-Combat"
 			}
 
 			Action
 			{
-				"Text"	"2. Hide a blackjack in your coat to give you a little edge?"
+				"Text"	"2. Escondes una porra en tu abrigo para darte una ligera ventaja."
 				"Trait"	"Armed"
 				"Next"	"Trait_Combat_vs_Non-Combat"
 			}
 
 			Action
 			{
-				"Text"	"3. Jam a Smith & Wesson into your waistband, just to be sure?"
+				"Text"	"3. Metes una Smith & Wesson en tu cinturon, solo para estar tranquilo."
 				"Trait"	"Ranged"
 				"Next"	"Trait_Combat_vs_Non-Combat"
 			}
@@ -1386,7 +1388,7 @@ CharCreateWizard
 		Popup // restored by wesp
 		{
 			// Unarmed vs Armed vs Ranged #6
-			"Text"		"You're in an all-night pawnshop, feeling the need for some protection, but very low on cash. You can only afford to purchase one item. Is it..."
+			"Text"		"Estas en una casa de empegnos que abre toda la noche, sintiendo la necesidad de obtener algo de proteccion, pero tienes poco dinero. Solo puedes comprar un objeto. Y es..."
 
 			"InternalName"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 
@@ -1398,21 +1400,21 @@ CharCreateWizard
 
 			Action
 			{
-				"Text"	"1. A book entitled \"Kickboxing in Ten Easy Lessons\"?"
+				"Text"	"1. Un libro titulado \"Kickboxing en Diez Faciles Lecciones\""
 				"Trait"	"Unarmed"
 				"Next"	"Trait_Combat_vs_Non-Combat"
 			}
 
 			Action
 			{
-				"Text"	"2. A well-worn baseball bat?"
+				"Text"	"2. Un bate de beisbol usado."
 				"Trait"	"Armed"
 				"Next"	"Trait_Combat_vs_Non-Combat"
 			}
 
 			Action
 			{
-				"Text"	"3. A cheap Saturday night special?"
+				"Text"	"3. Una pistola barata."
 				"Trait"	"Ranged"
 				"Next"	"Trait_Combat_vs_Non-Combat"
 			}
@@ -1509,18 +1511,18 @@ CharCreateWizard
 		Popup
 		{
 			// Social vs. Stealth #1
-			"Text"		"If you were a spy, would you be..."
+			"Text"		"Si fueras un espia, serias:"
 
 			Action
 			{
-				"Text"	"1. The kind that charms and seduces their way to the info?"
+				"Text"	"1. De los que atraen y seducen para conseguir la informacion."
 				"Trait"	"Social"
 				"Next"	"Trait_Winner_Combat"
 			}
 
 			Action
 			{
-				"Text"	"2. The kind that gets in and out without being seen?"
+				"Text"	"2. De los que entran y salen sin ser vistos."
 				"Trait"	"Stealth"
 				"Next"	"Trait_Winner_Combat"
 			}
@@ -1529,18 +1531,18 @@ CharCreateWizard
 		Popup
 		{
 			// Social vs. Stealth #2
-			"Text"		"Your co-worker recently bad-mouthed you to upper management and snagged a position that was rightfully yours. Do you..."
+			"Text"		"Tu colega recientemente ha hablado mal de ti ante tu superior y te ha robado una posicion que era legitimamente tuya. Tu..."
 
 			Action
 			{
-				"Text"	"1. Charm the pants off one of your bosses, and if that doesn't work, get their pants off another way?"
+				"Text"	"1. Intentas caerle tremendamente simpático a uno de tus jefes, y si eso no funciona, lo intentas de otra forma."
 				"Trait"	"Social"
 				"Next"	"Trait_Winner_Combat"
 			}
 
 			Action
 			{
-				"Text"	"2. Hack into your co-workers computer and accidentally leak a rather nasty email about the president of the company that they wrote?"
+				"Text"	"2. Pirateas el ordenador de tu colega y accidentalmente filtras un asqueroso email que escribio sobre el presidente de la empresa"
 				"Trait"	"Stealth"
 				"Next"	"Trait_Winner_Combat"
 			}
@@ -1549,18 +1551,18 @@ CharCreateWizard
 		Popup
 		{
 			// Social vs. Intellect #1
-			"Text"		"You want to turn this first date into a second one. How do you do it?"
+			"Text"		"Quieres convertir esta primera cita en una segunda. Como lo haces?"
 
 			Action
 			{
-				"Text"	"1. Look at me! I mean, who wouldn't want another dose of this?"
+				"Text"	"1. Mirame! Me refiero a.. Quien no querria otra dosis de esto, baby?"
 				"Trait"	"Social"
 				"Next"	"Trait_Winner_Combat"
 			}
 
 			Action
 			{
-				"Text"	"2. Intelligent conversation, the right wine, ordering in the language of the ethnic food?"
+				"Text"	"2. Una inteligente conversacion, el vino adecuado, pidiendolo en el lenguaje de la comida etnica."
 				"Trait"	"Intellect"
 				"Next"	"Trait_Winner_Combat"
 			}
@@ -1569,18 +1571,18 @@ CharCreateWizard
 		Popup
 		{
 			// Social vs. Intellect #2
-			"Text"		"Your new neighbor is everything you've ever wanted in someone. How do you get them to go out with you?"
+			"Text"		"Tu nuevo/a vecino/a es todo lo que has querido en alguien, Como conseguirias que saliera contigo?"
 
 			Action
 			{
-				"Text"	"1. Spend a good amount of time around the windows topless - they'll come running in no time?"
+				"Text"	"1. Empleas un monton de tiempo paseando por las ventanas en ropa interior. Vendra corriendo en un santiamen."
 				"Trait"	"Social"
 				"Next"	"Trait_Winner_Combat"
 			}
 
 			Action
 			{
-				"Text"	"2. They will probably be impressed by how hard you work - the flashy new car can't hurt either?"
+				"Text"	"2. Probablemente quedara impresionado/a por lo mucho que trabajas. El llamativo coche nuevo tampoco viene mal."
 				"Trait"	"Intellect"
 				"Next"	"Trait_Winner_Combat"
 			}
@@ -1589,18 +1591,18 @@ CharCreateWizard
 		Popup
 		{
 			// Stealth vs Intellect #1
-			"Text"		"On Friday, you left a drunken rant on your boss' voice mail. On Saturday, you sobered up and realized you had to erase it no matter what. What do you do?"
+			"Text"		"El viernes, dejaste un mensaje insultante en el buzon de voz de tu jefe estando borracho. El sabado, una vez sobrio y lucido tienes que borrarlo como sea. Que haces?"
 
 			Action
 			{
-				"Text"	"1. You know the side door's card reader is broken and can probably be hacked. All you need to do is slip in, erase the message, and sneak out."
+				"Text"	"1. Sabes que el lector de tarjetas de la entrada de servicio esta roto y probablemente pueda ser pirateado. Todo lo que tienes que hacer es entrar rapidamente, borrar el mensaje, y salir a escondidas"
 				"Trait"	"Stealth"
 				"Next"	"Trait_Winner_Combat"
 			}
 
 			Action
 			{
-				"Text"	"2. You're an employee, just show the security guard your badge, ask him about a sports team, laugh, walk in, erase the message, say \"have a good one, buddy\" and walk out."
+				"Text"	"2. Eres un empleado, enseñale simplemente tu identificacion al guardia de seguridad, preguntale alguna cosa sobre algun equipo de futbol, echais unas risas, entras, borras el mensaje, le dices \"hasta luego, amigo\" y te marchas"
 				"Trait"	"Intellect"
 				"Next"	"Trait_Winner_Combat"
 			}
@@ -1609,18 +1611,18 @@ CharCreateWizard
 		Popup
 		{
 			// Stealth vs Intellect #2
-			"Text"		"The new neighbor is gorgeous and you want to see a lot more of them. Do you..."
+			"Text"		"Tu nueva vecina es muy guapa y quieres ver mas. Tu..."
 
 			Action
 			{
-				"Text"	"1. Turn out the lights, put on dark clothing, mount the video camera on a tripod, and wait for the show to begin?"
+				"Text"	"1. Apagas las luces, te pones ropa oscura, montas la videocamara en el tripode, y esperas a que comience el espectaculo."
 				"Trait"	"Stealth"
 				"Next"	"Trait_Winner_Combat"
 			}
 
 			Action
 			{
-				"Text"	"2. Have a romantic dinner with soft music and some mood lighting - nature will take its course?"
+				"Text"	"2. Una cena romantica, musica suave, una buena atmosfera... la naturaleza hara el resto"
 				"Trait"	"Intellect"
 				"Next"	"Trait_Winner_Combat"
 			}
@@ -1717,18 +1719,18 @@ CharCreateWizard
 		Popup
 		{
 			// Unarmed vs. Armed #1
-			"Text"		"One guy at the party's been trying to pick a fight with you all night and has finally decided to throw a punch. Do you..."
+			"Text"		"Un chico de la fiesta esta tratando de buscar pelea contigo toda la noche y finalmente has decidido darle un tortazo. Tu..."
 
 			Action
 			{
-				"Text"	"1. Clock him in the mouth - he won't get up?"
+				"Text"	"1. Le das en la boca. No se levantara."
 				"Trait"	"Unarmed"
 				"Next"	"Clan_Chooser"
 			}
 
 			Action
 			{
-				"Text"	"2. Pick up an empty bottle and smash it over his head?"
+				"Text"	"2. Coges una botella y se la rompes en la cabeza."
 				"Trait"	"Armed"
 				"Next"	"Clan_Chooser"
 			}
@@ -1737,7 +1739,7 @@ CharCreateWizard
 		Popup
 		{
 			// Unarmed vs. Armed #2
-			"Text"		"If you could learn one martial art would it be..."
+			"Text"		"Si pudieras aprender un arte marcial, seria:"
 
 			Action
 			{
@@ -1748,7 +1750,7 @@ CharCreateWizard
 
 			Action
 			{
-				"Text"	"2. Kendo (Japanese fencing)?"
+				"Text"	"2. Kendo (Esgrima japones)."
 				"Trait"	"Armed"
 				"Next"	"Clan_Chooser"
 			}
@@ -1757,18 +1759,18 @@ CharCreateWizard
 		Popup
 		{
 			// Unarmed vs. Ranged #1
-			"Text"		"If you got in a fight against an armed opponent, would you rather..."
+			"Text"		"Si pelearas contra un oponente armado, que preferirias?"
 
 			Action
 			{
-				"Text"	"1. Take them on bare-handed - it's more satisfying?"
+				"Text"	"1. Enfrentarme a el con las manos desnudas. Es mas gratificante."
 				"Trait"	"Unarmed"
 				"Next"	"Clan_Chooser"
 			}
 
 			Action
 			{
-				"Text"	"2. Shoot first, ponder the consequences later?"
+				"Text"	"2. Disparar primero, y meditar las consecuencias despues."
 				"Trait"	"Ranged"
 				"Next"	"Clan_Chooser"
 			}
@@ -1777,18 +1779,18 @@ CharCreateWizard
 		Popup
 		{
 			// Unarmed vs. Ranged #2
-			"Text"		"You tell someone to be quiet in the movie theater and they get up and slug you in the face. Do you..."
+			"Text"		"Le dices a alguien que se calle en el cine, el se levanta y te golpea en la cara. Tu..."
 
 			Action
 			{
-				"Text"	"1. Twist his arm and make him lick the stick off the floor?"
+				"Text"	"1. Le retuerces el brazo y le haces morder el polvo."
 				"Trait"	"Unarmed"
 				"Next"	"Clan_Chooser"
 			}
 
 			Action
 			{
-				"Text"	"2. Carry a gun just to make tough guys like that wet their pants?"
+				"Text"	"2. Llevo una pistola para hacer que esos que se creen tipos duros se meen en los pantalones."
 				"Trait"	"Ranged"
 				"Next"	"Clan_Chooser"
 			}
@@ -1797,18 +1799,18 @@ CharCreateWizard
 		Popup
 		{
 			// Armed vs. Ranged #1
-			"Text"		"You're on a hike in the woods near dark when you spot a mountain lion on the path ahead of you. Do you..."
+			"Text"		"Estas de excursian en el bosque casi anocheciendo cuando ves a un puma en el camino que hay ante ti. Tu.."
 
 			Action
 			{
-				"Text"	"1. Grab a branch and run after it screaming?"
+				"Text"	"1. Coges una rama y corres tras el gritando."
 				"Trait"	"Armed"
 				"Next"	"Clan_Chooser"
 			}
 
 			Action
 			{
-				"Text"	"2. Gather up a handful of rocks and start throwing them?"
+				"Text"	"2. Recoges un puñado de piedras y comienzas a lanzarselas."
 				"Trait"	"Ranged"
 				"Next"	"Clan_Chooser"
 			}
@@ -1817,18 +1819,18 @@ CharCreateWizard
 		Popup
 		{
 			// Armed vs. Ranged #2
-			"Text"		"You hear a noise in the middle of the night and decide to investigate. Do you grab..."
+			"Text"		"Oyes un ruido en mitad de la noche y decides investigar. Vas y coges..."
 
 			Action
 			{
-				"Text"	"1. The metal bat under your bed?"
+				"Text"	"1. El bate de metal que guardas bajo la cama."
 				"Trait"	"Armed"
 				"Next"	"Clan_Chooser"
 			}
 
 			Action
 			{
-				"Text"	"2. The gun in the nightstand?"
+				"Text"	"2. La pistola de la mesita de noche."
 				"Trait"	"Ranged"
 				"Next"	"Clan_Chooser"
 			}
@@ -1907,17 +1909,17 @@ CharCreateWizard
 		Popup
 		{
 			// Brujah vs. Gangrel?
-			"Text"		"The world's a cruel and unforgiving place, but you've gotten by so far. Why?"
+			"Text"		"El mundo es un lugar cruel e implacable, pero has conseguido llegar hasta aqui. Por que?"
 
 			Action
 			{
-				"Text"		"1. Someone gets in my way I kick their ass. That's why!"
+				"Text"		"1. Si alguien se cruza en mi camino, le pateo el culo. Por eso."
 				"CharTemplate"	"Player_Brujah"
 			}
 
 			Action
 			{
-				"Text"		"2. I live alone, I don't need others. Just me, my dog, and to hell with the rest."
+				"Text"		"2. Vivo solo y no necesito a nadie. Solos mi perro y yo, y al infierno con todo lo demas."
 				"CharTemplate"	"Player_Gangrel"
 			}
 		}
@@ -1925,17 +1927,17 @@ CharCreateWizard
 		Popup
 		{
 			// Brujah vs. Malkavian?
-			"Text"		"The world's a cruel and unforgiving place, but you've gotten by so far. Why?"
+			"Text"		"El mundo es un lugar cruel e implacable, pero has conseguido llegar hasta aqui. Por que?"
 
 			Action
 			{
-				"Text"		"1. Someone gets in my way I kick their ass. That's why!"
+				"Text"		"1. Si alguien se cruza en mi camino, le pateo el culo. Por eso."
 				"CharTemplate"	"Player_Brujah"
 			}
 
 			Action
 			{
-				"Text"		"2. It may be cruel for you, but for me it's HILARIOUS."
+				"Text"		"2. Puede que sea cruel para ti, pero para mi es HILARANTE."
 				"CharTemplate"	"Player_Malkavian"
 			}
 		}
@@ -1943,17 +1945,17 @@ CharCreateWizard
 		Popup
 		{
 			// Brujah vs. Nosferatu?
-			"Text"		"The world's a cruel and unforgiving place, but you've gotten by so far. Why?"
+			"Text"		"El mundo es un lugar cruel e implacable, pero has conseguido llegar hasta aqui. Por que?"
 
 			Action
 			{
-				"Text"		"1. Someone gets in my way I kick their ass. That's why!"
+				"Text"		"1. Si alguien se cruza en mi camino, le pateo el culo. Por eso."
 				"CharTemplate"	"Player_Brujah"
 			}
 
 			Action
 			{
-				"Text"		"2. Stay out of sight and the world won't even know you're there."
+				"Text"		"2. No te mantengas a la vista y el mundo ni siquiera sabra que estas ahi."
 				"CharTemplate"	"Player_Nosferatu"
 			}
 		}
@@ -1961,17 +1963,17 @@ CharCreateWizard
 		Popup
 		{
 			// Brujah vs. Toreador?
-			"Text"		"The world's a cruel and unforgiving place, but you've gotten by so far. Why?"
+			"Text"		"El mundo es un lugar cruel e implacable, pero has conseguido llegar hasta aqui. Por que?"
 
 			Action
 			{
-				"Text"		"1. Someone gets in my way I kick their ass. That's why!"
+				"Text"		"1. Si alguien se cruza en mi camino, le pateo el culo. Por eso."
 				"CharTemplate"	"Player_Brujah"
 			}
 
 			Action
 			{
-				"Text"		"2. When you're as talented and attractive as I am, the world is your plaything."
+				"Text"		"2. Cuando tienes tanto talento y atractivo como yo, el mundo es tu juguete."
 				"CharTemplate"	"Player_Toreador"
 			}
 		}
@@ -1979,17 +1981,17 @@ CharCreateWizard
 		Popup
 		{
 			// Brujah vs. Tremere?
-			"Text"		"The world's a cruel and unforgiving place, but you've gotten by so far. Why?"
+			"Text"		"El mundo es un lugar cruel e implacable, pero has conseguido llegar hasta aqui. Por que?"
 
 			Action
 			{
-				"Text"		"1. Someone gets in my way I kick their ass. That's why!"
+				"Text"		"1. Si alguien se cruza en mi camino, le pateo el culo. Por eso."
 				"CharTemplate"	"Player_Brujah"
 			}
 
 			Action
 			{
-				"Text"		"2. Because I... keep it a secret. You have no idea of the truths I've learned."
+				"Text"		"2. Porque yo... guardo un secreto. No tienes ni idea de las verdades que he aprendido."
 				"CharTemplate"	"Player_Tremere"
 			}
 		}
@@ -1997,17 +1999,17 @@ CharCreateWizard
 		Popup
 		{
 			// Brujah vs. Ventrue?
-			"Text"		"The world's a cruel and unforgiving place, but you've gotten by so far. Why?"
+			"Text"		"El mundo es un lugar cruel e implacable, pero has conseguido llegar hasta aqui. Por que?"
 
 			Action
 			{
-				"Text"		"1. Someone gets in my way I kick their ass. That's why!"
+				"Text"		"1. Si alguien se cruza en mi camino, le pateo el culo. Por eso."
 				"CharTemplate"	"Player_Brujah"
 			}
 
 			Action
 			{
-				"Text"		"2. Because the world bends to my will."
+				"Text"		"2. Porque el mundo se doblega ante mi voluntad."
 				"CharTemplate"	"Player_Ventrue"
 			}
 		}
@@ -2015,17 +2017,17 @@ CharCreateWizard
 		Popup
 		{
 			// Gangrel vs. Malkavian?
-			"Text"		"The world's a cruel and unforgiving place, but you've gotten by so far. Why?"
+			"Text"		"El mundo es un lugar cruel e implacable, pero has conseguido llegar hasta aqui. Por que?"
 
 			Action
 			{
-				"Text"		"1. I live alone, I don't need others. Just me, my dog, and to hell with the rest."
+				"Text"		"1. Vivo solo y no necesito a nadie. Solos mi perro y yo, y al infierno con todo lo demas."
 				"CharTemplate"	"Player_Gangrel"
 			}
 
 			Action
 			{
-				"Text"		"2. It may be cruel for you, but for me it's HILARIOUS."
+				"Text"		"2. Puede que sea cruel para ti, pero para mi es HILARANTE."
 				"CharTemplate"	"Player_Malkavian"
 			}
 		}
@@ -2033,17 +2035,17 @@ CharCreateWizard
 		Popup
 		{
 			// Gangrel vs. Nosferatu?
-			"Text"		"The world's a cruel and unforgiving place, but you've gotten by so far. Why?"
+			"Text"		"El mundo es un lugar cruel e implacable, pero has conseguido llegar hasta aqui. Por que?"
 
 			Action
 			{
-				"Text"		"1. I live alone, I don't need others. Just me, my dog, and to hell with the rest."
+				"Text"		"1. Vivo solo y no necesito a nadie. Solos mi perro y yo, y al infierno con todo lo demas."
 				"CharTemplate"	"Player_Gangrel"
 			}
 
 			Action
 			{
-				"Text"		"2. Stay out of sight and the world won't even know you're there."
+				"Text"		"2. No te mantengas a la vista y el mundo ni siquiera sabra que estas ahi."
 				"CharTemplate"	"Player_Nosferatu"
 			}
 		}
@@ -2051,17 +2053,17 @@ CharCreateWizard
 		Popup
 		{
 			// Gangrel vs. Toreador?
-			"Text"		"The world's a cruel and unforgiving place, but you've gotten by so far. Why?"
+			"Text"		"El mundo es un lugar cruel e implacable, pero has conseguido llegar hasta aqui. Por que?"
 
 			Action
 			{
-				"Text"		"1. I live alone, I don't need others. Just me, my dog, and to hell with the rest."
+				"Text"		"1. Vivo solo y no necesito a nadie. Solos mi perro y yo, y al infierno con todo lo demas."
 				"CharTemplate"	"Player_Gangrel"
 			}
 
 			Action
 			{
-				"Text"		"2. When you're as talented and attractive as I am, the world is your plaything."
+				"Text"		"2. Cuando tienes tanto talento y atractivo como yo, el mundo es tu juguete."
 				"CharTemplate"	"Player_Toreador"
 			}
 		}
@@ -2069,17 +2071,17 @@ CharCreateWizard
 		Popup
 		{
 			// Gangrel vs. Tremere?
-			"Text"		"The world's a cruel and unforgiving place, but you've gotten by so far. Why?"
+			"Text"		"El mundo es un lugar cruel e implacable, pero has conseguido llegar hasta aqui. Por que?"
 
 			Action
 			{
-				"Text"		"1. I live alone, I don't need others. Just me, my dog, and to hell with the rest."
+				"Text"		"1. Vivo solo y no necesito a nadie. Solos mi perro y yo, y al infierno con todo lo demas."
 				"CharTemplate"	"Player_Gangrel"
 			}
 
 			Action
 			{
-				"Text"		"2. Because I... keep it a secret. You have no idea of the truths I've learned."
+				"Text"		"2. Porque yo... guardo un secreto. No tienes ni idea de las verdades que he aprendido."
 				"CharTemplate"	"Player_Tremere"
 			}
 		}
@@ -2087,17 +2089,17 @@ CharCreateWizard
 		Popup
 		{
 			// Gangrel vs. Ventrue?
-			"Text"		"The world's a cruel and unforgiving place, but you've gotten by so far. Why?"
+			"Text"		"El mundo es un lugar cruel e implacable, pero has conseguido llegar hasta aqui. Por que?"
 
 			Action
 			{
-				"Text"		"1. I live alone, I don't need others. Just me, my dog, and to hell with the rest."
+				"Text"		"1. Vivo solo y no necesito a nadie. Solos mi perro y yo, y al infierno con todo lo demas."
 				"CharTemplate"	"Player_Gangrel"
 			}
 
 			Action
 			{
-				"Text"		"2. Because the world bends to my will."
+				"Text"		"2. Porque el mundo se doblega ante mi voluntad."
 				"CharTemplate"	"Player_Ventrue"
 			}
 		}
@@ -2105,17 +2107,17 @@ CharCreateWizard
 		Popup
 		{
 			// Malkavian vs. Nosferatu?
-			"Text"		"The world's a cruel and unforgiving place, but you've gotten by so far. Why?"
+			"Text"		"El mundo es un lugar cruel e implacable, pero has conseguido llegar hasta aqui. Por que?"
 
 			Action
 			{
-				"Text"		"1. It may be cruel for you, but for me it's HILARIOUS."
+				"Text"		"1. Puede que sea cruel para ti, pero para mi es HILARANTE."
 				"CharTemplate"	"Player_Malkavian"
 			}
 
 			Action
 			{
-				"Text"		"2. Stay out of sight and the world won't even know you're there."
+				"Text"		"2. No te mantengas a la vista y el mundo ni siquiera sabra que estas ahi."
 				"CharTemplate"	"Player_Nosferatu"
 			}
 		}
@@ -2123,17 +2125,17 @@ CharCreateWizard
 		Popup
 		{
 			// Malkavian vs. Toreador?
-			"Text"		"The world's a cruel and unforgiving place, but you've gotten by so far. Why?"
+			"Text"		"El mundo es un lugar cruel e implacable, pero has conseguido llegar hasta aqui. Por que?"
 
 			Action
 			{
-				"Text"		"1. It may be cruel for you, but for me it's HILARIOUS."
+				"Text"		"1. Puede que sea cruel para ti, pero para mi es HILARANTE."
 				"CharTemplate"	"Player_Malkavian"
 			}
 
 			Action
 			{
-				"Text"		"2. When you're as talented and attractive as I am, the world is your plaything."
+				"Text"		"2. Cuando tienes tanto talento y atractivo como yo, el mundo es tu juguete."
 				"CharTemplate"	"Player_Toreador"
 			}
 		}
@@ -2141,17 +2143,17 @@ CharCreateWizard
 		Popup
 		{
 			// Malkavian vs. Tremere?
-			"Text"		"The world's a cruel and unforgiving place, but you've gotten by so far. Why?"
+			"Text"		"El mundo es un lugar cruel e implacable, pero has conseguido llegar hasta aqui. Por que?"
 
 			Action
 			{
-				"Text"		"1. It may be cruel for you, but for me it's HILARIOUS."
+				"Text"		"1. Puede que sea cruel para ti, pero para mi es HILARANTE."
 				"CharTemplate"	"Player_Malkavian"
 			}
 
 			Action
 			{
-				"Text"		"2. Because I... keep it a secret. You have no idea of the truths I've learned."
+				"Text"		"2. Porque yo... guardo un secreto. No tienes ni idea de las verdades que he aprendido."
 				"CharTemplate"	"Player_Tremere"
 			}
 		}
@@ -2159,17 +2161,17 @@ CharCreateWizard
 		Popup
 		{
 			// Malkavian vs. Ventrue?
-			"Text"		"The world's a cruel and unforgiving place, but you've gotten by so far. Why?"
+			"Text"		"El mundo es un lugar cruel e implacable, pero has conseguido llegar hasta aqui. Por que?"
 
 			Action
 			{
-				"Text"		"1. It may be cruel for you, but for me it's HILARIOUS."
+				"Text"		"1. Puede que sea cruel para ti, pero para mi es HILARANTE."
 				"CharTemplate"	"Player_Malkavian"
 			}
 
 			Action
 			{
-				"Text"		"2. Because the world bends to my will."
+				"Text"		"2. Porque el mundo se doblega ante mi voluntad."
 				"CharTemplate"	"Player_Ventrue"
 			}
 		}
@@ -2177,17 +2179,17 @@ CharCreateWizard
 		Popup
 		{
 			// Nosferatu vs. Toreador?
-			"Text"		"The world's a cruel and unforgiving place, but you've gotten by so far. Why?"
+			"Text"		"El mundo es un lugar cruel e implacable, pero has conseguido llegar hasta aqui. Por que?"
 
 			Action
 			{
-				"Text"		"1. Stay out of sight and the world won't even know you're there."
+				"Text"		"1. No te mantengas a la vista y el mundo ni siquiera sabra que estas ahi."
 				"CharTemplate"	"Player_Nosferatu"
 			}
 
 			Action
 			{
-				"Text"		"2. When you're as talented and attractive as I am, the world is your plaything."
+				"Text"		"2. Cuando tienes tanto talento y atractivo como yo, el mundo es tu juguete."
 				"CharTemplate"	"Player_Toreador"
 			}
 		}
@@ -2195,17 +2197,17 @@ CharCreateWizard
 		Popup
 		{
 			// Nosferatu vs. Tremere?
-			"Text"		"The world's a cruel and unforgiving place, but you've gotten by so far. Why?"
+			"Text"		"El mundo es un lugar cruel e implacable, pero has conseguido llegar hasta aqui. Por que?"
 
 			Action
 			{
-				"Text"		"1. Stay out of sight and the world won't even know you're there."
+				"Text"		"1. No te mantengas a la vista y el mundo ni siquiera sabra que estas ahi."
 				"CharTemplate"	"Player_Nosferatu"
 			}
 
 			Action
 			{
-				"Text"		"2. Because I... keep it a secret. You have no idea of the truths I've learned."
+				"Text"		"2. Porque yo... guardo un secreto. No tienes ni idea de las verdades que he aprendido."
 				"CharTemplate"	"Player_Tremere"
 			}
 		}
@@ -2213,17 +2215,17 @@ CharCreateWizard
 		Popup
 		{
 			// Nosferatu vs. Ventrue?
-			"Text"		"The world's a cruel and unforgiving place, but you've gotten by so far. Why?"
+			"Text"		"El mundo es un lugar cruel e implacable, pero has conseguido llegar hasta aqui. Por que?"
 
 			Action
 			{
-				"Text"		"1. Stay out of sight and the world won't even know you're there."
+				"Text"		"1. No te mantengas a la vista y el mundo ni siquiera sabra que estas ahi."
 				"CharTemplate"	"Player_Nosferatu"
 			}
 
 			Action
 			{
-				"Text"		"2. Because the world bends to my will."
+				"Text"		"2. Porque el mundo se doblega ante mi voluntad."
 				"CharTemplate"	"Player_Ventrue"
 			}
 		}
@@ -2231,17 +2233,17 @@ CharCreateWizard
 		Popup
 		{
 			// Toreador vs. Tremere?
-			"Text"		"The world's a cruel and unforgiving place, but you've gotten by so far. Why?"
+			"Text"		"El mundo es un lugar cruel e implacable, pero has conseguido llegar hasta aqui. Por que?"
 
 			Action
 			{
-				"Text"		"1. When you're as talented and attractive as I am, the world is your plaything."
+				"Text"		"1. Cuando tienes tanto talento y atractivo como yo, el mundo es tu juguete."
 				"CharTemplate"	"Player_Toreador"
 			}
 
 			Action
 			{
-				"Text"		"2. Because I... keep it a secret. You have no idea of the truths I've learned."
+				"Text"		"2. Porque yo... guardo un secreto. No tienes ni idea de las verdades que he aprendido."
 				"CharTemplate"	"Player_Tremere"
 			}
 		}
@@ -2249,17 +2251,17 @@ CharCreateWizard
 		Popup
 		{
 			// Toreador vs. Ventrue?
-			"Text"		"The world's a cruel and unforgiving place, but you've gotten by so far. Why?"
+			"Text"		"El mundo es un lugar cruel e implacable, pero has conseguido llegar hasta aqui. Por que?"
 
 			Action
 			{
-				"Text"		"1. When you're as talented and attractive as I am, the world is your plaything."
+				"Text"		"1. Cuando tienes tanto talento y atractivo como yo, el mundo es tu juguete."
 				"CharTemplate"	"Player_Toreador"
 			}
 
 			Action
 			{
-				"Text"		"2. Because the world bends to my will."
+				"Text"		"2. Porque el mundo se doblega ante mi voluntad."
 				"CharTemplate"	"Player_Ventrue"
 			}
 		}
@@ -2267,17 +2269,17 @@ CharCreateWizard
 		Popup
 		{
 			// Tremere vs. Ventrue?
-			"Text"		"The world's a cruel and unforgiving place, but you've gotten by so far. Why?"
+			"Text"		"El mundo es un lugar cruel e implacable, pero has conseguido llegar hasta aqui. Por que?"
 
 			Action
 			{
-				"Text"		"1. Because I... keep it a secret. You have no idea of the truths I've learned."
+				"Text"		"1. Porque yo... guardo un secreto. No tienes ni idea de las verdades que he aprendido."
 				"CharTemplate"	"Player_Tremere"
 			}
 
 			Action
 			{
-				"Text"		"2. Because the world bends to my will."
+				"Text"		"2. Porque el mundo se doblega ante mi voluntad."
 				"CharTemplate"	"Player_Ventrue"
 			}
 		}
@@ -2325,7 +2327,7 @@ CharCreateWizard
 			Action
 			{
 				// Do Not Show Help Text
-				"Text"		"Do not show help text."
+				"Text"		"No mostrar ayuda."
 				"IsCheckBox"	"1"
 				"EndCharGenWiz"	"1"
 				"Font"		"Copperplate"
@@ -2345,7 +2347,7 @@ CharCreateWizard
 		Popup
 		{
 			// Character Wizard Overview
-			"Text"		"You have been Embraced by the Brujah clan. Called by some a clan of violent brutes and mindless street thugs, the Brujah have been known to tangle, but are a proud clan who fight for freedom in life and death and put their combat abilities to use whenever they're necessary."
+			"Text"		"Has sido abrazado por el clan Brujah. Los Brujah, llamados por algunos clan de brutos violentos y de matones callejeros sin cerebro, son conocidos por sus lios, pero son un clan orgulloso que lucha por la libertad en la vida y en la muerte y ponen sus habilidades de combate en uso cuantas veces sea necesario."
 
 			"InternalName"	"Help_Popup0b"
 			"CharTemplate"	"Player_Brujah"
@@ -2386,7 +2388,7 @@ CharCreateWizard
 		Popup
 		{
 			// Character Wizard Overview
-			"Text"		"You have been Embraced by the Gangrel clan. Sometimes called nomads, loners, and introverts, the Gangrel spurn the trappings of civilization and prefer to roam the wilds in solitude. Known for having an uncanny connection with the Beast Within, some learn the power to shapeshift."
+			"Text"		"Has sido abrazado por el clan Gangrel. Los Gangrel, llamados algunas veces nomadas, solitarios e introvertidos, desprecian la parafernalia de la civilizacion y prefieren vagar por sitios inexplorados en soledad. Conocidos por tener una extraña conexion con la Bestia Interior, algunos aprenden el poder de cambiar de forma."
 
 			"InternalName"	"Help_Popup0b"
 			"CharTemplate"	"Player_Gangrel"
@@ -2427,7 +2429,7 @@ CharCreateWizard
 		Popup
 		{
 			// Character Wizard Overview
-			"Text"		"You have been Embraced by the Malkavian clan. Inflicted with insanity, Malkavians use their madness to provide them with surprising and sometimes disturbing insights. The INNER VOICE may tell them of someone's true intent - or it may betray them completely."
+			"Text"		"Has sido abrazado por el clan Malkavian. Los Malkavian, castigados con la demencia, usan su locura para proveerse de sorprendentes y a veces perturbadoras intuiciones. Su VOZ INTERIOR puede desvelar las verdaderas intenciones de alguien, o puede traicionarlos completamente."
 
 			"InternalName"	"Help_Popup0b"
 			"CharTemplate"	"Player_Malkavian"
@@ -2468,7 +2470,7 @@ CharCreateWizard
 		Popup
 		{
 			// Character Wizard Overview
-			"Text"		"You have been Embraced by the Nosferatu clan. A Nosferatu Embrace twists and deforms the physical appearance, making them abominations in the eyes of men. The Nosferatu are outcasts who have perfected the ability to blend into shadows and are masters of espionage and information-gathering."
+			"Text"		"Has sido abrazado por el clan Nosferatu. Un abrazo Nosferatu retuerce y deforma la apariencia fisica, convirtiendola en una abominacion a ojos de los hombres. Los Nosferatu son marginados que han perfeccionado la habilidad de esconderse en las sombras y son maestros del espionaje y de conseguir informacion"
 
 			"InternalName"	"Help_Popup0b"
 			"CharTemplate"	"Player_Nosferatu"
@@ -2509,7 +2511,7 @@ CharCreateWizard
 		Popup
 		{
 			// Character Wizard Overview
-			"Text"		"You have been Embraced by the Toreador clan. Known as artists, visionaries, and members of high society, Toreadors have a great connection with the mortal world through arts and entertainment. Masters of communication and social skills, Toreadors fit right in with the mortals who adore them."
+			"Text"		"Has sido abrazado por el clan Toreador. Conocidos como artistas, visionarios y miembros de la Alta Sociedad, los Toreador tienen una gran conexion con el mundo de los mortales a travez del arte y el entretenimiento. Maestros de la comunicacion y las habilidades sociales, los Toreador encajan perfectamente con los mortales a los que adoran."
 
 			"InternalName"	"Help_Popup0b"
 			"CharTemplate"	"Player_Toreador"
@@ -2550,7 +2552,7 @@ CharCreateWizard
 		Popup
 		{
 			// Character Wizard Overview
-			"Text"		"You have been Embraced by the Tremere clan. Tremere are the practitioners and creators of the blood magic called Thaumaturgy. Not generally trusted by other clans, Tremere are enshrouded in mystery and keep their motives hidden."
+			"Text"		"Has sido abrazado por el clan Tremere. Los Tremere son los practicantes y creadores de la magia de la sangre llamada Taumaturgia. No considerados muy de fiar por los otros clanes, los Tremere están rodeados de misterio y mantienen sus intenciones ocultas."
 
 			"InternalName"	"Help_Popup0b"
 			"CharTemplate"	"Player_Tremere"
@@ -2591,7 +2593,7 @@ CharCreateWizard
 		Popup
 		{
 			// Character Wizard Overview
-			"Text"		"You have been embraced by the Ventrue clan. The Ventrue are the nobles of the undead, represented by the power brokers and executives of various Fortune 500 companies. Ventrue are known to be arrogant and quite capable of dominating conversations, but also can be the charismatic leaders of the undead."
+			"Text"		"Has sido abrazado por el clan Ventrue. Los Ventrue son los nobles de los no-muertos, representados por poderosos brokers y ejecutivos de algunas de las empresas mas poderosas del mundo. Los Ventrue son conocidos por ser arrogantes y bastante capaces de dominar las conversaciones, pero tambien suelen ser los carismaticos lideres de los no-muertos."
 
 			"InternalName"	"Help_Popup0b"
 			"CharTemplate"	"Player_Ventrue"
@@ -2632,7 +2634,7 @@ CharCreateWizard
 		Popup
 		{
 			// General
-			"Text"		"Your vampire's Attributes and Abilities have now been determined and entered into its Character Sheet, which you will see next. After your tour of the Character Sheet, you may make changes to the character or simply play it as is."
+			"Text"		"Ahora, tus atributos y tus habilidades de vampiro han sido determinados e introducidos en tu Hoja de Personaje, que veras a continuacion. En la Hoja de Personaje, puedes hacer cambios en el mismo o simplemente jugar tal cual esta."
 
 			"InternalName"	"Help_Popup1"
 
@@ -2672,7 +2674,7 @@ CharCreateWizard
 		Popup
 		{
 			// Feats
-			"Text"		"Feats are the actions you perform in the game. Feats are derived from adding an Attribute and an Ability. An example would be the feat of lockpicking, which is derived from the Attribute of Dexterity and the Ability of Security. Hovering your mouse-pointer over a feat will highlight the Attribute and Ability upon which it is dependent."
+			"Text"		"Las Acciones son las caracteristicas fisicas y mentales que puedes emplear durante el juego. Las Acciones se obtienen de la suma de un Atributo y una Habilidad. Un ejemplo seria la Acción de Intrusion, que se obtiene del atributo Destreza y la habilidad Seguridad. Pasa el puntero del raton sobre una Accion e iluminaras el atributo y la habilidad de la que depende."
 
 			"InternalName"	"Help_Popup4b"	// WAS Help_Popup2
 
@@ -2713,7 +2715,7 @@ CharCreateWizard
 		Popup
 		{
 			// Humanity
-			"Text"		"This is your Humanity. Seven is the norm. Ten is saintly, and the lower you go the closer to the Beast you become. Also, the lower your Humanity, the greater your chances of frenzying. When a vampire goes into a frenzy, he loses all control and attacks any and all things around him. However, as you gain experience, you can spend experience points to increase your Humanity."
+			"Text"		"Esta es tu humanidad. Siete es lo normal. Diez es ser un santo, cuanto mas baja sea la humanidad mas te acercaras a la Bestia. Tambien tendras mas posibilidades de entrar en frenesi. Cuando un vampiro entra en frenesi, pierde el control y ataca a cualquier persona o cosa que lo rodee. Sin embargo, al ganar experiencia, puedes gastar puntos para aumentar tu humanidad."
 
 			"InternalName"	"Help_Popup6"
 
@@ -2753,7 +2755,7 @@ CharCreateWizard
 		Popup
 		{
 			// Masquerade
-			"Text"		"This is where your Masquerade violations are displayed. The Masquerade is a code by which many vampires unlive. Any time a vampire is seen doing a supernatural act by a mortal, it is considered a Masquerade violation. You have five chances, and each strike will have repercussions. If you commit five Masquerade violations, you will be dealt with harshly."
+			"Text"		"Aqui se muestran tus violaciones de la Mascarada. La Mascarada es un codigo por el que muchos vampiros se rigen. En el momento en que un vampiro es visto por un mortal realizando un acto sobrenatural, se considera una violacion de la Mascarada. Tienes cinco oportunidades, y cada violacion tendra repercusiones. Si cometes cinco violaciones, seras castigado con severidad."
 
 			"InternalName"	"Help_Popup7"
 
@@ -2793,7 +2795,7 @@ CharCreateWizard
 		Popup
 		{
 			// Info Window
-			"Text"		"This is where all information on things you are hovering over is displayed."
+			"Text"		"Aqui es donde se muestra toda la informacion sobre las zonas que apuntas con el raton."
 
 			"InternalName"	"Help_Popup8"
 
@@ -3000,7 +3002,7 @@ CharCreateWizard
 			Action
 			{
 				// Do Not Show Help Text
-				"Text"		"Do not show help text."
+				"Text"		"No mostrar ayudas."
 				"IsCheckBox"	"1"
 				"EndCharGenWiz"	"1"
 				"Font"		"Copperplate"
@@ -3019,7 +3021,7 @@ CharCreateWizard
 		Popup
 		{
 			// Attributes and Abilities -- General
-			"Text"		"These are your Attributes and Abilities which feats are derived from. Attributes are your inherent character traits and are broken into three categories: Physical, Social and Mental. Abilities are things you learn and also are broken into three categories: Talents, Skills and Knowledges."
+			"Text"		"Estos son tus Atributos y Habilidades de los que derivan las Acciones. Los Atributos son los rasgos inherentes a tu personaje y se dividen en tres categorias: Fisicos, Sociales y Mentales. Las Habilidades son las cosas que aprendes y tambien estan divididas en tres categorias: Talentos, Tecnicas y Conocimientos."
 
 			"InternalName"	"Help_Popup3"
 
@@ -3032,7 +3034,7 @@ CharCreateWizard
 		Popup
 		{
 			// Attributes and Abilities -- Detail
-			"Text"		"Members of the militaristic Brujah clan are indomitable warriors, and so your strongest attribute is Physical, in which you have 2 points you can spend. You also have 1 point to spend in Mental and no points in Social, a Brujah's weakest Attribute. As for Abilities, being Brujah gives you an advantage with their aggressive and violent Talents, in which you have 3 points to spend. You have only average abilities in Skills (2 points) and are weak in Knowledges (1 point)."
+			"Text"		"Los miembros del militarista clan Brujah son indomables guerreros, y por eso tus Atributos mas poderosos son los Fisicos, en los que tienes 3 puntos para gastar. Tambien tienes 1 punto para gastar en Mentales y ninguno punto en Sociales, los atributos mas debiles de los Brujah. En cuanto a Habilidades, ser un Brujah te da ventajas debido a sus agresivos y violentos Talentos, en los que tienes 3 puntos para gastar. No destacas en Técnicas (2 puntos) y eres debil en Conocimientos (1 punto)."
 
 			"InternalName"	"Help_Popup4"
 			"CharTemplate"	"Player_Brujah"
@@ -3041,7 +3043,7 @@ CharCreateWizard
 		Popup
 		{
 			// Attributes and Abilities -- Detail
-			"Text"		"Members of the animalistic Gangrel clan are close to their inner Beast, and so your strongest Attribute is Physical, in which you have 2 points you can spend. You also have 1 point to spend in Mental and no points in Social, a Grangrel's weakest Attribute. As for Abilities, being Gangrel gives you an advantage in their warrior Skills, in which you have 3 points to spend. You have only average abilities in Talents (2 points) and are weak in Knowledges (1 point)."
+			"Text"		"Los miembros del bestial clan Gangrel estan cerca de la Bestia interior, y por eso tus Atributos mas poderosos son los Fisicos, en los que tienes 2 puntos para gastar. Tambien tienes 1 punto para gastar en Mentales y ningun punto en Sociales, los atributos mas debiles de los Gangrel. En Habilidades, ser un Gangrel te da ventajas con sus Tecnicas guerreras, en las que tienes 4 puntos para gastar. No destacas en Talentos (2 puntos) y eres debil en Conocimientos (1 punto)."
 
 			"InternalName"	"Help_Popup4"
 			"CharTemplate"	"Player_Gangrel"
@@ -3050,7 +3052,7 @@ CharCreateWizard
 		Popup
 		{
 			// Attributes and Abilities -- Detail
-			"Text"		"Members of the insane Malkavian clan possess a dark intellect, and so your strongest Attribute is Mental, in which you have 2 points you can spend. You also have 1 point to spend in Social and no points in Physical, your weakest Attribute. As for Abilities, being Malkavian gives you an advantage in your insightful Knowledges, in which you have 3 points to spend. You only have average abilities in Skills (2 points) and are weak in Talents (1 point)."
+			"Text"		"Los miembros del demente clan Malkavian poseen un oscuro intelecto, y por eso tus Atributos mas poderosos son los Mentales, en los que tienes 2 puntos para gastar. Tambien tienes 1 punto para gastar en Sociales y ningun punto en Fisicos, los atributos mas debiles de los Malkavian. En Habilidades, ser un Malkavian te da ventajas con sus intuitivos Conocimientos, asi que tienes 3 puntos para gastar. No destacas en Tecnicas (2 puntos) y eres debil en Talentos (1 punto)."
 
 			"InternalName"	"Help_Popup4"
 			"CharTemplate"	"Player_Malkavian"
@@ -3059,7 +3061,7 @@ CharCreateWizard
 		Popup
 		{
 			// Attributes and Abilities -- Detail
-			"Text"		"Members of the hideous Nosferatu clan are masters in the craft of eavesdropping, and so your strongest Attribute is Mental, in which you have 2 points you can spend. You have 1 point to spend in Physical and no points in Social, your weakest attribute. As for Abilities, being Nosferatu gives you an advantage in your stealthy Skills, and therefore you have 3 points to spend. You only have average abilities in Knowledges (2 points) and are weak in Talents (1 point)."
+			"Text"		"Los miembros del ocultadizo clan Nosferatu son maestros en el arte de espiar, y por eso tus Atributos mas poderosos son los Mentales, en los que tienes 2 puntos para gastar. Tambien tienes 1 punto para gastar en Fisicos y ningun punto en Sociales, los atributos más débiles de los Nosferatu. En Habilidades, ser un Nosferatu te da ventajas con sus sigilosas Tecnicas, en las que tienes 3 puntos para gastar. No destacas en Conocimientos (2 puntos) y eres debil en Talentos (1 punto)."
 
 			"InternalName"	"Help_Popup4"
 			"CharTemplate"	"Player_Nosferatu"
@@ -3068,7 +3070,7 @@ CharCreateWizard
 		Popup
 		{
 			// Attributes and Abilities -- Detail
-			"Text"		"Members of the sophisticated Toreador clan have the gift of gab, and so your strongest Attribute is Social, in which you have 2 points to spend. You have 1 point to spend in Mental and no points in Physical, your weakest Attribute. As for Abilities, being Toreador gives you an advantage in your verbal Talents, and therefore you have 3 points to spend. You only have average abilities in Knowledges (2 points) and are weak in Skills (1 point)."
+			"Text"		"Los miembros del sofisticado clan Toreador tienen la facultad de la locuacidad, y por eso tus Atributos mas poderosos son los Sociales, en los que tienes 2 puntos para gastar. Tambien tienes 1 punto para gastar en Mentales y ningun punto en Fisicos, los atributos mas debiles de los Toreador. En Habilidades, ser un Toreador te da ventajas con sus verbales Talentos, en los que tienes 3 puntos para gastar. No destacas en Conocimientos (2 puntos) y eres debil en Tecnicas (1 punto)."
 
 			"InternalName"	"Help_Popup4"
 			"CharTemplate"	"Player_Toreador"
@@ -3077,7 +3079,7 @@ CharCreateWizard
 		Popup
 		{
 			// Attributes and Abilities -- Detail
-			"Text"		"Members of the sinister Tremere clan are masters of vampiric sorcery, so your strongest Attribute is Mental, in which you have 2 points you can spend. You also have 1 point to spend in Physical and no points in Social, your weakest Attribute. As for Abilities, being Tremere gives you an advantage in your arcane Knowledges, and therefore you have 3 points to spend. You have only average abilities in Talents (2 points) and are weak in Skills (1 point)."
+			"Text"		"Los miembros del siniestro clan Tremere son maestros de la hechiceria vampirica, y por eso tus Atributos mas poderosos son los Mentales, en los que tienes 2 puntos para gastar. Tambien tienes 1 punto para gastar en Fisicos y ningun punto en Sociales, los atributos mas debiles de los Tremere. En Habilidades, ser un Tremere te da ventajas en tus Conocimientos arcanos, en los que tienes 3 puntos para gastar. No destacas en Talentos (2 puntos) y eres debil en Tecnicas (1 punto)."
 
 			"InternalName"	"Help_Popup4"
 			"CharTemplate"	"Player_Tremere"
@@ -3086,7 +3088,7 @@ CharCreateWizard
 		Popup
 		{
 			// Attributes and Abilities -- Detail
-			"Text"		"Members of the aristocratic Ventrue clan are the leaders of vampire society, and so your strongest Attribute is Social, in which you have 2 points you can spend. You also have 1 point to spend in Mental and no points in Physical, your weakest Attribute. As for Abilities, being Ventrue gives you an advantage in your cultivated Knowledges, and therefore you have 3 points to spend. You have only average abilities in Talents (2 points) and are weak in Skills (1 point)."
+			"Text"		"Los miembros del aristocrático clan Ventrue son los lideres de la sociedad vampirica, y por eso tus Atributos mas poderosos son los Sociales, en los que tienes 2 puntos para gastar. Tambien tienes 1 punto para gastar en Mentales y ningun punto en Fisicos, los atributos mas debiles de los Ventrue. En Habilidades, ser un Ventrue te da ventajas con sus cultivados Conocimientos, en los que tienes 3 puntos para gastar. No destacas en Talentos (2 puntos) y eres debil en Tecnicas (1 punto)."
 
 			"InternalName"	"Help_Popup4"
 			"CharTemplate"	"Player_Ventrue"
@@ -3179,7 +3181,7 @@ CharCreateWizard
 		Popup
 		{
 			// Disciplines
-			"Text"		"You are a member of the Brujah clan, renowned for its sheer physical prowess. Brujah are rebels who hold social change near to their undead hearts, and the clan's ranks contain some of the most violent members of vampire society. Their Disciplines are Celerity (vampiric speed), Potence (vampiric strength) and Presence (vampiric charisma)."
+			"Text"		"Eres miembro del clan Brujah, famosos por sus depuradas hazañas fisicas. Los Brujah son rebeldes que mantienen el cambio social cerca de sus corazones no-muertos y la jerarquia del clan contiene algunos de los mas violentos miembros de la sociedad vampirica. Sus disciplinas son Celeridad (velocidad vampirica), Potencia (fuerza vampirica) y Presencia (carisma vampirico)."
 
 			"CharTemplate"	"Player_Brujah"
 		}
@@ -3187,7 +3189,7 @@ CharCreateWizard
 		Popup
 		{
 			// Disciplines
-			"Text"		"You are a member of the Gangrel clan, closest of all vampires to their inner nature. Gangrels have a keen understanding of the Beast in their souls and prefer to spend their nights in communion with the animals whom they so emulate. Their Disciplines are Animalism (animal communion), Fortitude (vampiric toughness), and Protean (shapeshifting)."
+			"Text"		"Eres miembro del clan Gangrel, de todos los vampiros, el mas cercano a su naturaleza interior. Los Gangrel tienen una aguda comprension de la Bestia en sus almas y prefieren pasar sus noches en comunion con los animales a quienes emulan. Sus disciplinas son Animalismo (comunion animal), Fortaleza (resistencia vampirica) y Protean (cambio de forma)."
 
 			"CharTemplate"	"Player_Gangrel"
 		}
@@ -3195,7 +3197,7 @@ CharCreateWizard
 		Popup
 		{
 			// Disciplines
-			"Text"		"You are a member of the Malkavian clan, cursed with incurable insanity. Malkavians are free from the confines of rationality, and this freedom is coupled with an uncanny insight, a strange wisdom that cannot be perceived by the sane. Their Disciplines are Auspex (aura perception), Dementation (madness channeling), and Obfuscate (invisibility)."
+			"Text"		"Eres miembro del clan Malkavian, malditos con una incurable demencia. Los Malkavian estan liberados de los limites del raciocinio y esta libertad esta asociada a una extrana intuicion, un extrano sentido que no puede ser percibido por los cuerdos. Sus disciplinas son Auspex (percepcion del aura), Dementacion (canalizacion de la locura) y Ofuscacion (invisibilidad)."
 
 			"CharTemplate"	"Player_Malkavian"
 		}
@@ -3203,7 +3205,7 @@ CharCreateWizard
 		Popup
 		{
 			// Disciplines
-			"Text"		"You are a member of the Nosferatu clan, twisted and deformed by the curse of vampirism. Nosferatu are survivors who have mastered the art of sneaking. Few creatures, mortal or vampire, know a city's back alleys and dark corners like the Nosferatu do. Their Disciplines are Animalism (animal communion), Obfuscate (invisibility), and Potence (vampiric strength)."
+			"Text"		"Eres un miembro del clan Nosferatu, retorcido y deformado por la maldicion del vampirismo. Los Nosferatu son supervivientes que han dominado el arte del sigilo. Pocas criaturas, mortales o vampiros, conocen los callejones y las rincones oscuros de una ciudad tan bien como los Nosferatu. Sus disciplinas son Animalismo (comunion animal), Ofuscacion (invisibilidad) y Potencia (fuerza vampirica)."
 
 			"CharTemplate"	"Player_Nosferatu"
 		}
@@ -3211,7 +3213,7 @@ CharCreateWizard
 		Popup
 		{
 			// Disciplines
-			"Text"		"You are a member of the Toreador clan, the vampires most connected to the mortal world. Toreadors glide gracefully and effortlessly through human society, sampling the artistic delights of each age as a gourmand savors rare delicacies. Their Disciplines are Auspex (aura perception), Celerity (vampiric speed) and Presence (vampiric charisma)."
+			"Text"		"Eres un miembro del clan Toreador, los vampiros mas conectados al mundo mortal. Los Toreador se introducen facil y airosamente entre la sociedad humana, degustando las delicias artisticas de cada epoca como un gourmet saborea raras exquisiteces. Sus disciplinas son Auspex (percepcion del aura), Celeridad (velocidad vampirica) y Presencia (carisma vampirico)."
 
 			"CharTemplate"	"Player_Toreador"
 		}
@@ -3219,7 +3221,7 @@ CharCreateWizard
 		Popup
 		{
 			// Disciplines
-			"Text"		"You are a member of the Tremere clan, masters of blood sorcery. Tremere are feared and mistrusted by other vampires, for the rituals and spells of these warlocks are as potent - if not more so - than any other vampiric power. Their Disciplines are Auspex (aura perception), Dominate (mind control), and Thaumaturgy (blood magic)."
+			"Text"		"Eres un miembro del clan Tremere, maestros de la magia de la sangre. Los Tremere son temidos y los demas vampiros recelan de ellos, porque los rituales y hechizos de estos brujos son tan potentes - si no mas - que cualquier otro poder vampirico. Sus disciplinas son Auspex (percepcion del aura), Dominacion (control de la mente) y Taumaturgia (magia de la sangre)."
 
 			"CharTemplate"	"Player_Tremere"
 		}
@@ -3227,7 +3229,7 @@ CharCreateWizard
 		Popup
 		{
 			// Disciplines
-			"Text"		"You are a member of the Ventrue clan, leaders of vampire society. Ventrue see themselves as nobles in the classic sense of the word, fighting to uphold the station of those below them. When another vampire requires aid, the Ventrue can often provide it - for a price. Their Disciplines are Dominate (mind control), Fortitude (vampiric toughness) and Presence (vampiric charisma)."
+			"Text"		"Eres miembro del clan Ventrue, lideres de la sociedad vampirica. Los Ventrue se ven a si mismos como nobles en el clasico sentido de la palabra, luchando por mantener la base de aquellos que estan por debajo. Cuando otro vampiro necesita ayuda, los Ventrue pueden concedersela... por un precio.  Sus disciplinas son Dominacion (control de la mente), Fortaleza (resistencia vampirica) y Presencia (carisma vampirico)."
 
 			"CharTemplate"	"Player_Ventrue"
 //			Action
@@ -3332,7 +3334,7 @@ CharCreateWizard
 		Popup
 		{
 			// Character Wizard Overview
-			"Text"		"A new game starts with creating a new character. Would you like to..."
+			"Text"		"Una nueva partida comienza con la creacion de un nuevo personaje. Que prefieres?"
 
 			"InternalName"	"Help_Popup0"
 
@@ -3348,7 +3350,7 @@ CharCreateWizard
 
 			Action
 			{
-				"Text"		"1. Answer a series of questions about the type of vampire you would like to play and allow the game to create your character?"
+				"Text"		"1. Responder a una serie de preguntas sobre el tipo de vampiro que te gustaria jugar y permitir al juego crear tu personaje."
 				"Next"		"Trait_Male_vs_Female"
 				"MultiLineText"	"1"
 				"ShowSeparator"	"1"
@@ -3364,7 +3366,7 @@ CharCreateWizard
 
 			Action
 			{
-				"Text"		"2. Go directly to the Character Sheet and set your character's clan, Attributes and Abilities yourself?"
+				"Text"		"2. Ir directamente a la Hoja de Personaje para elegir el clan, los atributos y habilidades tu mismo."
 				"Next"		""
 				"MultiLineText"	"1"
 				"ShowSeparator"	"1"
@@ -3382,7 +3384,7 @@ CharCreateWizard
 		Popup
 		{
 			// Info Window
-			"Text"		"The AutoLevel On/Off button is a toggle that allows you to decide whether you want the computer to allocate the experience points you earn in the game among you Attributes, Abilities and Disciplines, or whether you wish to allocate them yourself. The Reset Stats button is another toggle that allows you to clear out your point allocations so that you can start over, or return them to their last settings. The Cancel button allows you to return to your last point in the game without changing your Character Sheet. Once you are satisfied with your character settings, click on the Accept button to play the game."
+			"Text"		"El boton de AutoNivel te permite intercambiar entre dejar a la computadora asignar los puntos de experiencia ganados entre tus Atributos, Habilidades y Disciplinas, o asignarlos manualmente. El boton de Resetear te permite limpiar los puntos de experiencia asignados pudiendo volver a asignarlos, o volver a la ultima configuracion. El boton de Cancelar te permite volver a tu ultimo punto en el juego sin cambiar la Hoja de Personaje. Una vez estes satisfecho con los cambios hechos a tu personaje, presiona el boton de Aceptar para volver al juego."
 
 			"InternalName"	"Help_Popup9"
 
@@ -3456,7 +3458,7 @@ CharCreateWizard
 				// Okay
 				"UsesBorder"	"1"
 				"CenterText"	"1"
-				"Text"		"Okay"
+				"Text"		"Aceptar"
 
 				Region
 				{
@@ -3502,7 +3504,7 @@ CharCreateWizard
 		Popup
 		{
 			// Warning: Choose the name for your character
-			"Text"		"You have not named your character yet. Please name your character."
+			"Text"		"Aun no le has puesto nombre a tu personaje. Por favor, ponle un nombre."
 
 			"InternalName"	"Misc_Popup_NoName"
 
@@ -3518,13 +3520,13 @@ CharCreateWizard
 		Popup
 		{
 			// Warning: Resetting Stats
-			"Text"		"Resetting Stats will lose any changes you have made. Are you sure?"
+			"Text"		"Al resetear las estadisticas perderas todos los cambios realizados. Estas seguro?"
 
 			"InternalName"	"Misc_Popup_WarnResetStats"
 
 			Action
 			{
-				"Text"			"Yes"
+				"Text"			"Si"
 				"EndCharGenWiz"		"1"
 				"PerformResetStats"	"1"
 				"Next"			""
@@ -3550,13 +3552,13 @@ CharCreateWizard
 		Popup
 		{
 			// Warning: Cancelling Character Creation
-			"Text"		"Cancelling Character Creation will lose all changes. Are you sure?"
+			"Text"		"Al cancelar la creacion del personaje perderas todos los cambios realizados. Estas seguro?"
 
 			"InternalName"	"Misc_Popup_WarnCancel"
 
 			Action
 			{
-				"Text"		"Yes"
+				"Text"		"Si"
 				"EndCharGenWiz"	"1"
 				"Next"		""
 				"PerformCancel"	"1"
