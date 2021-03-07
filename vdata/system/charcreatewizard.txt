@@ -808,7 +808,7 @@ CharCreateWizard
 		Popup
 		{
 			// Combat vs Non-Combat #4
-			"Text"		"			"Text"		"Estas en un atrapado en el trafico despues de un concierto y el chico que hay detrás de ti no para de hacer sonar la bocina. Tus amigos en el coche te animan a que aparques y les ayudes a meterle esa bocina en algún incomodo lugar. Tu..."
+			"Text"		"			"Text"		"Estas en un atrapado en el trafico despues de un concierto y el chico que hay detras de ti no para de hacer sonar la bocina. Tus amigos en el coche te animan a que aparques y les ayudes a meterle esa bocina en algun incomodo lugar. Tu..."
 "
 
 			"InternalName"	"Trait_Combat_vs_Non-Combat"
@@ -1133,7 +1133,7 @@ CharCreateWizard
 
 			Action
 			{
-				"Text"	"3. Tranquilamente explicas que no tenias ni idea de que estuvieran casados y que pretendes salir y no volver mas... manteniendo los dedos en el marcado rápido, en caso de necesitar a la policia."
+				"Text"	"3. Tranquilamente explicas que no tenias ni idea de que estuvieran casados y que pretendes salir y no volver mas... manteniendo los dedos en el marcado rapido, en caso de necesitar a la policia."
 				"Trait"	"Intellect"
 				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 			}
@@ -1232,7 +1232,7 @@ CharCreateWizard
 
 			Action
 			{
-				"Text"	"2. Empiezas a llevar un cuchillo y lo ocultas en tu cinturon. La proxima persona que lo intente tendrá que respirar por un agujero en el cuello."
+				"Text"	"2. Empiezas a llevar un cuchillo y lo ocultas en tu cinturon. La proxima persona que lo intente tendra que respirar por un agujero en el cuello."
 				"Trait"	"Armed"
 				"Next"	"Trait_Combat_vs_Non-Combat"
 			}
@@ -1260,21 +1260,21 @@ CharCreateWizard
 
 			Action
 			{
-				"Text"	"1. El Puño del Rey Mono, una película de Kung-fu con una escena donde Wu vence a veinte hombres armados con solo sus manos desnudas."
+				"Text"	"1. El Puño del Rey Mono, una pelicula de Kung-fu con una escena donde Wu vence a veinte hombres armados con solo sus manos desnudas."
 				"Trait"	"Unarmed"
 				"Next"	"Trait_Combat_vs_Non-Combat"
 			}
 
 			Action
 			{
-				"Text"	"2. Espada del Bushi. Película japonesa donde un solitario samurai se abre camino a travez de una banda yakuza."
+				"Text"	"2. Espada del Bushi. Pelicula japonesa donde un solitario samurai se abre camino a travez de una banda yakuza."
 				"Trait"	"Armed"
 				"Next"	"Trait_Combat_vs_Non-Combat"
 			}
 
 			Action
 			{
-				"Text"	"3. Sargento Murderstein III. El policia que no sigue las reglas se enfrenta a un cártel de la droga que secuestro a su hija, con solo su leal calibre 0.44 como apoyo."
+				"Text"	"3. Sargento Murderstein III. El policia que no sigue las reglas se enfrenta a un cartel de la droga que secuestro a su hija, con solo su leal calibre 0.44 como apoyo."
 				"Trait"	"Ranged"
 				"Next"	"Trait_Combat_vs_Non-Combat"
 			}
@@ -1535,7 +1535,7 @@ CharCreateWizard
 
 			Action
 			{
-				"Text"	"1. Intentas caerle tremendamente simpático a uno de tus jefes, y si eso no funciona, lo intentas de otra forma."
+				"Text"	"1. Intentas caerle tremendamente simpatico a uno de tus jefes, y si eso no funciona, lo intentas de otra forma."
 				"Trait"	"Social"
 				"Next"	"Trait_Winner_Combat"
 			}
@@ -2552,7 +2552,7 @@ CharCreateWizard
 		Popup
 		{
 			// Character Wizard Overview
-			"Text"		"Has sido abrazado por el clan Tremere. Los Tremere son los practicantes y creadores de la magia de la sangre llamada Taumaturgia. No considerados muy de fiar por los otros clanes, los Tremere están rodeados de misterio y mantienen sus intenciones ocultas."
+			"Text"		"Has sido abrazado por el clan Tremere. Los Tremere son los practicantes y creadores de la magia de la sangre llamada Taumaturgia. No considerados muy de fiar por los otros clanes, los Tremere estan rodeados de misterio y mantienen sus intenciones ocultas."
 
 			"InternalName"	"Help_Popup0b"
 			"CharTemplate"	"Player_Tremere"
@@ -2674,7 +2674,7 @@ CharCreateWizard
 		Popup
 		{
 			// Feats
-			"Text"		"Las Acciones son las caracteristicas fisicas y mentales que puedes emplear durante el juego. Las Acciones se obtienen de la suma de un Atributo y una Habilidad. Un ejemplo seria la Acción de Intrusion, que se obtiene del atributo Destreza y la habilidad Seguridad. Pasa el puntero del raton sobre una Accion e iluminaras el atributo y la habilidad de la que depende."
+			"Text"		"Las Acciones son las caracteristicas fisicas y mentales que puedes emplear durante el juego. Las Acciones se obtienen de la suma de un Atributo y una Habilidad. Un ejemplo seria la Accion de Intrusion, que se obtiene del atributo Destreza y la habilidad Seguridad. Pasa el puntero del raton sobre una Accion e iluminaras el atributo y la habilidad de la que depende."
 
 			"InternalName"	"Help_Popup4b"	// WAS Help_Popup2
 
@@ -3034,7 +3034,7 @@ CharCreateWizard
 		Popup
 		{
 			// Attributes and Abilities -- Detail
-			"Text"		"Los miembros del militarista clan Brujah son indomables guerreros, y por eso tus Atributos mas poderosos son los Fisicos, en los que tienes 3 puntos para gastar. Tambien tienes 1 punto para gastar en Mentales y ninguno punto en Sociales, los atributos mas debiles de los Brujah. En cuanto a Habilidades, ser un Brujah te da ventajas debido a sus agresivos y violentos Talentos, en los que tienes 3 puntos para gastar. No destacas en Técnicas (2 puntos) y eres debil en Conocimientos (1 punto)."
+			"Text"		"Los miembros del militarista clan Brujah son indomables guerreros, y por eso tus Atributos mas poderosos son los Fisicos, en los que tienes 3 puntos para gastar. Tambien tienes 1 punto para gastar en Mentales y ninguno punto en Sociales, los atributos mas debiles de los Brujah. En cuanto a Habilidades, ser un Brujah te da ventajas debido a sus agresivos y violentos Talentos, en los que tienes 3 puntos para gastar. No destacas en Tecnicas (2 puntos) y eres debil en Conocimientos (1 punto)."
 
 			"InternalName"	"Help_Popup4"
 			"CharTemplate"	"Player_Brujah"
@@ -3061,7 +3061,7 @@ CharCreateWizard
 		Popup
 		{
 			// Attributes and Abilities -- Detail
-			"Text"		"Los miembros del ocultadizo clan Nosferatu son maestros en el arte de espiar, y por eso tus Atributos mas poderosos son los Mentales, en los que tienes 2 puntos para gastar. Tambien tienes 1 punto para gastar en Fisicos y ningun punto en Sociales, los atributos más débiles de los Nosferatu. En Habilidades, ser un Nosferatu te da ventajas con sus sigilosas Tecnicas, en las que tienes 3 puntos para gastar. No destacas en Conocimientos (2 puntos) y eres debil en Talentos (1 punto)."
+			"Text"		"Los miembros del ocultadizo clan Nosferatu son maestros en el arte de espiar, y por eso tus Atributos mas poderosos son los Mentales, en los que tienes 2 puntos para gastar. Tambien tienes 1 punto para gastar en Fisicos y ningun punto en Sociales, los atributos mas debiles de los Nosferatu. En Habilidades, ser un Nosferatu te da ventajas con sus sigilosas Tecnicas, en las que tienes 3 puntos para gastar. No destacas en Conocimientos (2 puntos) y eres debil en Talentos (1 punto)."
 
 			"InternalName"	"Help_Popup4"
 			"CharTemplate"	"Player_Nosferatu"
@@ -3088,7 +3088,7 @@ CharCreateWizard
 		Popup
 		{
 			// Attributes and Abilities -- Detail
-			"Text"		"Los miembros del aristocrático clan Ventrue son los lideres de la sociedad vampirica, y por eso tus Atributos mas poderosos son los Sociales, en los que tienes 2 puntos para gastar. Tambien tienes 1 punto para gastar en Mentales y ningun punto en Fisicos, los atributos mas debiles de los Ventrue. En Habilidades, ser un Ventrue te da ventajas con sus cultivados Conocimientos, en los que tienes 3 puntos para gastar. No destacas en Talentos (2 puntos) y eres debil en Tecnicas (1 punto)."
+			"Text"		"Los miembros del aristocratico clan Ventrue son los lideres de la sociedad vampirica, y por eso tus Atributos mas poderosos son los Sociales, en los que tienes 2 puntos para gastar. Tambien tienes 1 punto para gastar en Mentales y ningun punto en Fisicos, los atributos mas debiles de los Ventrue. En Habilidades, ser un Ventrue te da ventajas con sus cultivados Conocimientos, en los que tienes 3 puntos para gastar. No destacas en Talentos (2 puntos) y eres debil en Tecnicas (1 punto)."
 
 			"InternalName"	"Help_Popup4"
 			"CharTemplate"	"Player_Ventrue"
