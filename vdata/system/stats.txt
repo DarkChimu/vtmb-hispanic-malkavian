@@ -15,7 +15,7 @@ StatData
 
 	Attributes
 	{
-		"Name"		"Attributes"
+		"Name"		"Atributos"
 		"InternalName"	"Attributes"
 
 		Costs
@@ -26,7 +26,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Attribute Order"
+			"Name"		"Orden Atributos"
 			"InternalName"	"Attrib_Order"
 			"HelpText"		""
 
@@ -118,9 +118,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Strength"
+			"Name"		"Fuerza"
 			"InternalName"	"Strength"
-			"HelpText"		"Strength is a measure of your character's physical prowess. It is crucial for both the Unarmed and Melee Combat feats."
+			"HelpText"		"Fuerza mide el poder fisico de tu personaje. Es crucial tanto para las acciones de combate Desarmado como de Melee."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -135,9 +135,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Dexterity"
+			"Name"		"Destreza"
 			"InternalName"	"Dexterity"
-			"HelpText"		"Determines the agility of your character. Dexterity will increase your Lockpicking and Sneaking feats."	// changed by wesp
+			"HelpText"		"Determina la velocidad y agilidad de tu personaje. Destreza incrementa las acciones de Intrusion y Sigilo."	// changed by wesp
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -152,9 +152,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Stamina"
+			"Name"		"Resistencia"
 			"InternalName"	"Stamina"
-			"HelpText"		"Your character's overall toughness. Prevents damage from bullets, police batons, and baseball bats. Increases soak Bashing."
+			"HelpText"		"Mide el aguante medio de tu personaje. Previene dano de balas, porras de policia y bates de beisbol. Aumenta la Absorcion (Contundente)."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -169,9 +169,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Charisma"
+			"Name"		"Carisma"
 			"InternalName"	"Charisma"
-			"HelpText"		"Measures your character's ability to sway others through personality. Charisma is an important part of the Persuasion feat."
+			"HelpText"		"Mide la habilidad de tu personaje para influir en otros mediante la personalidad. Carisma es una parte importante de la accion Persuasion."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -188,9 +188,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Manipulation"
+			"Name"		"Manipulacion"
 			"InternalName"	"Manipulation"
-			"HelpText"		"Measures your character's ability to exploit people and events. Manipulation is necessary for the Haggle feat."
+			"HelpText"		"Mide la habilidad de tu personaje para sacar provecho de las personas y las situaciones. La Manipulacion es necesaria para la accion Regatear."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -207,9 +207,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Appearance"
+			"Name"		"Apariencia"
 			"InternalName"	"Appearance"
-			"HelpText"		"Indicates the physical attractiveness of your character. Appearance is the foundation of the Seduction feat."
+			"HelpText"		"Indica el atractivo fisico de tu personaje. La Apariencia es la base de la accion Seduccion."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -225,7 +225,7 @@ StatData
 
 			Table
 			{
-				"Name"		"Appearance Reaction"
+				"Name"		"Reaccion Apariencia"
 				"InternalName"	"Appearance_Reaction"
 
 				"Clamping"		"1"
@@ -241,9 +241,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Perception"
+			"Name"		"Percepcion"
 			"InternalName"	"Perception"
-			"HelpText"		"Measures your character's awareness of their surroundings. Perception is necessary for the Ranged Combat and Inspection feats."
+			"HelpText"		"Mide la habilidad de tu personaje para comprender el entorno. Percepcion es necesaria para las acciones de Combate A Distancia e Investigacion."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -258,9 +258,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Intelligence"
+			"Name"		"Inteligencia"
 			"InternalName"	"Intelligence"
-			"HelpText"		"Indicates your character's ability to learn, think, and remember. Intelligence is essential for the Research and Intimidate feats."
+			"HelpText"		"Indica la habilidad de tu personaje para aprender, pensar y recordar. Inteligencia es esencial para las acciones de Documentacion e Intimidacion."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -277,9 +277,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Wits"
+			"Name"		"Astucia"
 			"InternalName"	"Wits"
-			"HelpText"		"Measures the sharpness of your character's mind, and ability to think on their feet. Wits improve the Combat Defense and Hacking feats."	// changed by wesp
+			"HelpText"		"Mide la agudeza de la mente de tu personaje y la habilidad de tomar decisiones rapidas. Astucia mejora las acciones de Defensa y Pirateria."	// changed by wesp
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -329,7 +329,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Gender"
+			"Name"		"Sexo"
 			"InternalName"	"Gender"
 			"HelpText"		""
 
@@ -346,7 +346,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"BloodPool"
+			"Name"		"Reserva de Sangre"
 			"InternalName"	"BloodPool"
 			"HelpText"		""
 
@@ -372,7 +372,7 @@ StatData
 		Stat
 		{
 			// This is the Maximum (generally meaning the "starting" bloodpool for a critter)
-			"Name"		"BloodPool Max"
+			"Name"		"Reserva de Sangre Maxima"
 			"InternalName"	"BloodPool_Max"
 			"HelpText"		""
 
@@ -389,7 +389,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"FaithPoints"
+			"Name"		"Puntos de Fe"
 			"InternalName"	"FaithPoints"
 			"HelpText"		""
 
@@ -405,7 +405,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Health"
+			"Name"		"Salud"
 			"InternalName"	"Health"
 			"HelpText"		""
 
@@ -422,7 +422,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Health Aggravated Dmg"
+			"Name"		"Agravado"
 			"InternalName"	"Health_Aggravated_Dmg"
 			"HelpText"		""
 
@@ -438,7 +438,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Max Health"
+			"Name"		"Salud Maxima"
 			"InternalName"	"Max_Health"
 			"HelpText"		""
 
@@ -454,7 +454,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Generation"
+			"Name"		"Generacion"
 			"InternalName"	"Generation"
 			"HelpText"		""
 
@@ -469,7 +469,7 @@ StatData
 
 			Table
 			{
-				"Name"		"Max Trait Rating"
+				"Name"		"Rasgo Maximo"
 				"InternalName"	"Generation_Max_Trait_Rating"
 
 				"Clamping"		"1"
@@ -492,7 +492,7 @@ StatData
 
 			Table
 			{
-				"Name"		"Blood Pool Max"
+				"Name"		"Reserva de Sangre Maxima"
 				"InternalName"	"Generation_Blood_Pool_Max"
 
 				"Clamping"		"1"
@@ -515,7 +515,7 @@ StatData
 
 			Table
 			{
-				"Name"		"Blood Points/Turn"
+				"Name"		"Puntos de Sangre/Turno"
 				"InternalName"	"Generation_Blood_Points_Turn"
 
 				"Clamping"		"1"
@@ -539,7 +539,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Armor Rating"
+			"Name"		"Armadura"
 			"InternalName"	"Armor_Rating"
 			"HelpText"		""
 
@@ -557,7 +557,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Level"
+			"Name"		"Nivel"
 			"InternalName"	"Level"
 			"HelpText"		""
 
@@ -576,7 +576,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Frenzy Check Modifier"
+			"Name"		"Modificador de Frenesi"
 			"InternalName"	"Frenzy_Check_Mod"
 			"HelpText"		""
 
@@ -612,7 +612,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Soak Pool"
+			"Name"		"Reserva de Absorcion"
 			"InternalName"	"Soak_Pool"
 			"HelpText"		""
 
@@ -630,7 +630,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Automatic Soak Successes"
+			"Name"		"Absorcion Automatica Efectiva"
 			"InternalName"	"Automatic_Soak_Successes"
 			"HelpText"		""
 
@@ -648,7 +648,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Automatic Str Successes"
+			"Name"		"Fuerza Automatica Efectiva"
 			"InternalName"	"Automatic_Str_Successes"
 			"HelpText"		""
 
@@ -666,7 +666,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"HealthBuffer"
+			"Name"		"Reserva de Salud"
 			"InternalName"	"HealthBuffer"
 			"HelpText"		""
 
@@ -684,7 +684,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Encumbrance"
+			"Name"		"Capacidad de Carga"
 			"InternalName"	"Encumbrance"
 			"HelpText"		""
 
@@ -700,9 +700,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Humanity"
+			"Name"		"Humanidad"
 			"InternalName"	"Humanity"
-			"HelpText"	"Although monsters by nature, most vampires cling to Humanity to survive in the mortal world. Humanity is the ability to keep your predatory nature at bay, and your first line of defense against frenzy. If you cause the death of an innocent human you will lose Humanity. You will frenzy more often if your Humanity is low."
+			"HelpText"	"Siendo monstruos por naturaleza, muchos vampiros se aferran a la Humanidad para sobrevivir en el mundo de los mortales. La Humanidad es la habilidad de controlar tu naturaleza depredadora y tu mejor defensa contra el Frenesi. Causar la muerte de un inocente restara Humanidad. Con Humanidad baja caeras en Frenesi mas a menudo."
 
 			"ShownInFeedback"	"1"
 
@@ -719,9 +719,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Masquerade"
+			"Name"		"Mascarada"
 			"InternalName"	"Masquerade"
-			"HelpText"		"The Masquerade is the code of secrecy that hides vampire existence from humankind. Violations of the Masquerade will lead to ambush attacks from human vampire hunters, and scorn, contempt or worse from your fellow Kindred. If you lose all Masquerade points, you will lose the game."
+			"HelpText"		"La Mascarada es el codigo secreto que oculta la existencia de los vampiros ante la humanidad. Las violaciones de la Mascarada llevaran a emboscadas de cazadores de vampiros humanos, y al desprecio o cosas peores del resto de Vastagos. Si pierdes todos los puntos de Mascarada, pierdes el juego."
 
 			"ShownInFeedback"	"1"
 
@@ -737,7 +737,7 @@ StatData
 
 //		Stat
 //		{
-//			"Name"		"Willpower"
+//			"Name"		"Fuerza de Voluntad"
 //			"InternalName"	"Willpower"
 //			"HelpText"		""
 //
@@ -754,7 +754,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Experience Modifier"
+			"Name"		"Modificador Experiencia"
 			"InternalName"	"Experience_Modifier"
 			"HelpText"		""
 
@@ -772,7 +772,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Starting Equipment"
+			"Name"		"Equipo de Inicio"
 			"InternalName"	"Starting_Equipment"
 			"HelpText"		""
 
@@ -789,7 +789,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Excluded Equipment"
+			"Name"		"Equipo Excluido"
 			"InternalName"	"Excluded_Equipment"
 			"HelpText"		""
 
@@ -813,7 +813,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Healing Rate"
+			"Name"		"Indice de Curacion"
 			"InternalName"	"VampHeal_Type"
 			"HelpText"		"Template used for Auto-Leveling"
 
@@ -836,7 +836,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"AutoLevel Template"
+			"Name"		"Plantilla de AutoNivel"
 			"InternalName"	"AutoLevel_Template"
 			"HelpText"		"Template used for Auto-Leveling"
 
@@ -852,7 +852,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Experience"
+			"Name"		"Experiencia"
 			"InternalName"	"Experience"
 			"HelpText"		""
 
@@ -881,7 +881,7 @@ StatData
 
 	Abilities
 	{
-		"Name"		"Abilities"
+		"Name"		"Habilidades"
 		"InternalName"	"Abilities"
 
 		Costs
@@ -892,7 +892,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Ability Order"
+			"Name"		"Orden Habilidad"
 			"InternalName"	"Ability_Order"
 			"HelpText"		""
 
@@ -982,10 +982,10 @@ StatData
 
 //		Stat
 //		{
-//			"Name"		"Athletics"
+//			"Name"		"Atletismo"
 //			"InternalName"	"Athletics"
-//			"HelpText"		"How well one has conditioned their body to run faster, jump higher, swim harder or throw farther."
-//			"HelpText2"		"Improves range and accuracy of jumping and throwing."
+//			"HelpText"		"El nivel al que alguien ha adaptado su cuerpo para correr mas rapido, saltar mas alto, nadar mas deprisa o lanzar mas lejos."
+//			"HelpText2"		"Mejora la distancia y precision de saltos y lanzamientos."
 //
 //			"Min"			"0"
 //			"Max"			"5"
@@ -995,9 +995,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Brawl"
+			"Name"		"Pelea"
 			"InternalName"	"Brawl"
-			"HelpText"		"The ability to fight bare-handed. Brawl is important for the Unarmed Combat feat, which also makes it easier to feed on the unwilling."
+			"HelpText"		"La habilidad de luchar con las manos desnudas. Pelea es importante para la accion de combate Desarmado, y tambien hace mas facil alimentarse de victimas que se resisten."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -1010,9 +1010,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Dodge"
+			"Name"		"Esquivar"
 			"InternalName"	"Dodge"
-			"HelpText"		"Determines your character's ability to avoid taking damage in all forms of combat. Dodge increases the Combat Defense feat."	// changed by wesp
+			"HelpText"		"Determina la habilidad de tu personaje para evitar recibir daño en cualquier tipo de combate. Esquivar incrementa la acción Defensa."	// changed by wesp
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -1025,9 +1025,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Intimidation"
+			"Name"		"Intimidacion"
 			"InternalName"	"Intimidation"
-			"HelpText"		"Measures your character's ability to instill fear, and force cooperation in others. Intimidation, naturally, increases your Intimidate feat."
+			"HelpText"		"Mide la habilidad de tu personaje para infundir miedo y forzar la cooperacion de otros. Intimidacion, logicamente, aumenta la accion Intimidacion."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -1042,9 +1042,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Subterfuge"
+			"Name"		"Subterfugio"
 			"InternalName"	"Subterfuge"
-			"HelpText"		"Measures your character's ability to conceal their motives, and deceive others. Subterfuge is needed for the feat of Seduction."
+			"HelpText"		"Mide la habilidad de tu personaje para ocultar sus intenciones y enganar a otros. Subterfugio se necesita para la accion Seduccion."
 			"HelpText2"		""
 			"Disabled"		"1"
 
@@ -1074,9 +1074,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Firearms"
+			"Name"		"Armas Fuego"
 			"InternalName"	"Firearms"
-			"HelpText"		"Determines how well your character aims and causes damage with guns of all types. Firearms is an indispensable part of the Ranged Combat feat."
+			"HelpText"		"Determina la habilidad de tu personaje al apuntar y causar dano con armas de fuego de todos los tipos. Armas Fuego es una parte indispensable para la accion de combate A Distancia."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -1089,9 +1089,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Melee"
+			"Name"		"Armas Melee"
 			"InternalName"	"Melee"
-			"HelpText"		"Your character's ability to fight in close combat with hand-held weapons such as knives and swords. Melee increases your Melee Combat feat."
+			"HelpText"		"La habilidad de tu personaje de luchar en combate cerrado blandiendo armas como cuchillos y espadas. Armas Melee. incrementa la accion Melee."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -1104,9 +1104,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Security"
+			"Name"		"Seguridad"
 			"InternalName"	"Security"
-			"HelpText"		"Displays your character's knowledge of how locks and security systems work. Security is needed for the Lockpicking feat."
+			"HelpText"		"Muestra el conocimiento sobre el funcionamiento de cerraduras y sistemas de seguridad de tu personaje. Seguridad es necesario para la accion Intrusion."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -1119,9 +1119,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Stealth"
+			"Name"		"Sigilo"
 			"InternalName"	"Stealth"
-			"HelpText"		"Measures your character's ability to move silently and avoid being detected.  Stealth is a crucial component of the Sneaking feat."
+			"HelpText"		"Mide la habilidad de tu personaje para moverse sigilosamente y evitar ser detectado. Sigilo es un componente crucial para la accion Sigilo."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -1134,9 +1134,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Computer"
+			"Name"		"Informatica"
 			"InternalName"	"Computer"
-			"HelpText"		"Indicates your character's ability to operate computers and other devices. Computer knowledge is needed for the Hacking feat."
+			"HelpText"		"Indica la habilidad de tu personaje para usar ordenadores y otros dispositivos. Informatica es necesaria para la accion Pirateria."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -1149,9 +1149,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Finance"
+			"Name"		"Finanzas"
 			"InternalName"	"Finance"
-			"HelpText"		"Your character's ability to evaluate the market value of items. Finance is needed for the Haggle feat."
+			"HelpText"		"La habilidad de tu personaje para evaluar el valor de mercado de los objetos. Finanzas es necesaria para la accion Regatear."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -1166,9 +1166,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Investigation"
+			"Name"		"Investigacion"
 			"InternalName"	"Investigation"
-			"HelpText"		"Measures your character's ability to notice minute or hidden details. Investigation will increase your Inspection feat."
+			"HelpText"		"Mide la habilidad de tu personaje para apreciar detalles ocultos o minusculos. Investigacion incrementa la accion Investigacion."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -1181,9 +1181,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Scholarship"
+			"Name"		"Academicismo"
 			"InternalName"	"Academics"
-			"HelpText"		"Your character's ability to gather information, debate, and learn new skills. Scholarship will increase your Research and Persuasion feats and is required to identify and activate rare artifacts."	// changed by wesp
+			"HelpText"		"La habilidad de tu personaje para conseguir informacion, debatir y aprender nuevas habilidades. Academicismo incrementara tus acciones de Documentacion y Persuasion."	// changed by wesp
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -1216,7 +1216,7 @@ StatData
 //	StatData
 	Disciplines
 	{
-		"Name"		"Disciplines"
+		"Name"		"Disciplinas"
 		"InternalName"	"Disciplines"
 
 		Costs
@@ -1237,19 +1237,19 @@ StatData
 
 			Stat
 			{
-				"Name"		"Animalism"
+				"Name"		"Animalismo"
 				"InternalName"	"Animalism"
-				"HelpText"	"Embracing the Beast Within, the vampire can call on animal spirits to carry out their will. The effects of Animalism are obviously supernatural and carry the risk of violating the Masquerade if they are used in a Safe Area."
-				"HelpTextH1"	"Level 1: Nightwisp Ravens"
-				"HelpTextH2"	"Level 2: Burrowing Beetle"
-				"HelpTextH3"	"Level 3: Spectral Wolf"
-				"HelpTextH4"	"Level 4: Bloodsucker Communion"	// changed by wesp
-				"HelpTextH5"	"Level 5: Pestilence"
-				"HelpTextL1"	"Activation Cost: 1 Blood. Ravens incapacitate the victim for about 10 seconds. Any action taken against the victim will disperse the flock and end the effect prematurely."	// changed by wesp
-				"HelpTextL2"	"Activation Cost: 1 Blood. A bone-crunching beetle flies to the victim, causing damage as it burrows deep into their body."
-				"HelpTextL3"	"Activation Cost: 2 Blood. A spectral wolf materializes, attacks the target, and then returns to the ether."
-				"HelpTextL4"	"Activation Cost: 3 Blood. Ghostly bats attack the target, draining its blood, then deliver the blood to their master."
-				"HelpTextL5"	"Activation Cost: 3 Blood. Insect swarms descend upon all victims in an area, devouring their flesh and possibly killing them."
+				"HelpText"	"Abrazando a la Bestia Interior, el vampiro puede invocar a espiritus animales para realizar su voluntad. Los efectos de Animalismo son obviamente sobrenaturales e incluyen el riesgo de violar la Mascarada si son usados en Zonas Seguras."
+				"HelpTextH1"	"Nivel 1: Cuervos Nocturnos"
+				"HelpTextH2"	"Nivel 2: Escarabajo Excavador"
+				"HelpTextH3"	"Nivel 3: Lobo Espectral"
+				"HelpTextH4"	"Nivel 4: Comunion de Chupasangres"	// changed by wesp
+				"HelpTextH5"	"Nivel 5: Pestilencia"
+				"HelpTextL1"	"Coste de Activacion: 1 Punto de Sangre. Los cuervos incapacitan a la victima por unos 10 segundos. Cualquier accion tomada contra la victima dispersara la bandada y finalizara el efecto prematuramente."	// changed by wesp
+				"HelpTextL2"	"Coste de Activacion: 1 Punto de Sangre. Un escarabajo quebrantahuesos vuela hacia la victima, causando dano mientras escarba dentro de su cuerpo."
+				"HelpTextL3"	"Coste de Activacion: 2 Puntos de Sangre. Un lobo espectral se materializa, ataca al objetivo y vuelve a su plano."
+				"HelpTextL4"	"Coste de Activacion: 3 Puntos de Sangre. Murcielagos fantasmales atacan al objetivo, drenando su sangre, luego entregan la sangre a su maestro."
+				"HelpTextL5"	"Coste de Activacion: 3 Puntos de Sangre. Un enjambre de insectos desciende sobre todas las victimas de una zona, devorando su carne y posiblemente matandolas."
 
 				"ShownInFeedback"	"1"
 

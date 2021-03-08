@@ -1248,7 +1248,7 @@ CharCreateWizard
 		Popup
 		{
 			// Unarmed vs Armed vs Ranged #2
-			"Text"		"Siendo una 'persona nocturna', ves un monton de peliculas de madrugada. Estan echando tres peliculas, ¿cual veras?"
+			"Text"		"Siendo una 'persona nocturna', ves un monton de peliculas de madrugada. Estan echando tres peliculas, cual veras?"
 
 			"InternalName"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 
@@ -1283,7 +1283,7 @@ CharCreateWizard
 		Popup
 		{
 			// Unarmed vs Armed vs Ranged #3
-			"Text"		"Es tarde y estas en el Red Spot, esperando a que tu burrito se caliente en el microondas. Hay tres maquinas recreativas con las que pasar el tiempo. ¿A cual juegas?"
+			"Text"		"Es tarde y estas en el Red Spot, esperando a que tu burrito se caliente en el microondas. Hay tres maquinas recreativas con las que pasar el tiempo. A cual juegas?"
 
 			"InternalName"	"Trait_Unarmed_vs_Armed_vs_Ranged"
 

@@ -682,7 +682,7 @@ StringData
 			"Name51"	"You have entered a safe area"
 			"Name52"	"You have entered Elysium"
 			"Name53"	"You gain no nourishment from rat blood"
-			"Name54"	"Game Saved"
+			"Name54"	"Partida Guardada"
 			"Name55"	"Cannot save at this time"	// changed by wesp
 			"Name56"	"Need More Blood"
 			"Name57"	"123"		// Discipline Activated -- String is unused, but placeholder is needed

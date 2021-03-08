@@ -240,10 +240,10 @@ ClanDataTables
 		{
 			"TemplateName"			"Player_Brujah"
 			"Name"				"Brujah"
-			"Description"			"Brujah are passionate idealists and rebels, more likely to fight for their rights than write protest songs. In life, most Brujah sought social change, and in undeath, most clan members commonly seek the creation of a vampiric Utopia. As militant radicals, they are renowned for their combat skills, but are also more likely to frenzy due to their hot-bloodedness, so to speak. They receive a +1 to their Unarmed feat but are penalized with a -2 to all frenzy checks, due to their zealous natures."
+			"Description"			"Los Brujah son idealistas apasionados y rebeldes, que prefieren combatir por sus derechos antes que escribir canciones protesta. En vida, la mayoria de los Brujah habia trabajado duramente para conseguir derechos sociales y, en la no-vida, trabaja en la creacion de una utopia vampirica. Como militantes radicales, los Brujah son reconocidos por sus habilidades para el combate, aunque debido a su sangre demasiado 'caliente', corren el riesgo de perder el control y enloquecer. Reciben un +1 a todas las habilidades relacionadas con la Pelea, pero estan penalizados con un -2 en dejarse llevar por el Frenesi, a causa de su naturaleza apasionada."
 			"ShortDescription"		"
-Advantage: +1 to Unarmed. Level 1 dialogue Presence."	// changed by wesp
-			"ShortPenaltyDescription"	"Penalty: -2 on all frenzy checks."
+Ventaja: +1 en Pelea.. Level 1 en Presencia."	// changed by wesp
+			"ShortPenaltyDescription"	"Penalizacion: -2 en lo relativo al Frenesi."
 		}
 
 		General
@@ -360,10 +360,10 @@ Advantage: +1 to Unarmed. Level 1 dialogue Presence."	// changed by wesp
 		{
 			"TemplateName"			"Player_Gangrel"
 			"Name"				"Gangrel"
-			"Description"			"Gangrel are wild loners that are the most in tune with the Beast Within, allowing them to shapeshift into more beastly forms. Nomadic in nature, Gangrel care little about vampire politics and prefer to dwell and hunt in the outskirts of society. Because of their animalistic nature, they receive a +5 to Strength, Stamina, and Wits during frenzy. However, because of their inherent feral nature, Gangrel receive a -1 on all frenzy checks."
+			"Description"			"Los Gangrel son salvajes solitarios y son los vampiros que mas en sintonia estan con la Bestia Interior, lo cual les permite transformarse en bestias. Nomadas por naturaleza, los Gangrel prestan mas bien poco interes en lo concerniente a politica vampirica y prefieren cazar y vivir al margen de la sociedad. Debido a su naturaleza animal, reciben un +5 en Fuerza, Constitucion y Astucia si entran en Frenesi. Por el mismo motivo, se produce tambien una penalizacion de -1 para resistir la perdida de control causada por el Frenesi."
 			"ShortDescription"		"
-Advantage: +5 to Strength, Wits, and Stamina in frenzy."	// changed by wesp
-			"ShortPenaltyDescription"	"Penalty: -1 on all frenzy checks."
+Ventaja: +5 en Fuerza, Astucia y Constitucion al entrar en Frenesi."	// changed by wesp
+			"ShortPenaltyDescription"	"Penalizacion: -1 en mantener el control al entrar en Frenesi.."
 		}
 
 		General
