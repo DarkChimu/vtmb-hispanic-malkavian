@@ -12,62 +12,62 @@ StringData
 
 	 	Gender
 		{
-	 		"Name0"	"Female"
-		 	"Name1"	"Male"
+	 		"Name0"	"Hombre"
+		 	"Name1"	"Mujer"
 	 	}
 
 		Level
 		{
-			"Name0"	"Below Low"
-			"Name1"	"Low"
-		 	"Name2"	"Medium"
-		 	"Name3"	"High"
+			"Name0"	"Muy Bajo"
+			"Name1"	"Bajo"
+		 	"Name2"	"Medio"
+		 	"Name3"	"Alto"
 		}
 
 		HealthLevel
 		{
-			"Name0"	"Uninjured"
-			"Name1"	"Bruised"
-			"Name2"	"Hurt"
-			"Name3"	"Injured"
-			"Name4"	"Wounded"
-			"Name5"	"Mauled"
-			"Name6"	"Crippled"
-			"Name7"	"Incapacitated"
+			"Name0"	"Ileso"
+			"Name1"	"Magullado"
+			"Name2"	"Lastimado"
+			"Name3"	"Lesionado"
+			"Name4"	"Herido"
+			"Name5"	"Malherido"
+			"Name6"	"Tullido"
+			"Name7"	"Incapacitado"
 		}
 
 		HumanityLevel
 		{
-			"Name0"	"Horrific"
+			"Name0"	"Horrible"
 			"Name1"	"Bestial"
-			"Name2"	"Cold"
-			"Name3"	"Unfeeling"
-			"Name4"	"Distant"
-			"Name5"	"Removed"
+			"Name2"	"Frio"
+			"Name3"	"Insensible"
+			"Name4"	"Distante"
+			"Name5"	"Reservado"
 			"Name6"	"Normal"
-			"Name7"	"Caring"
-			"Name8"	"Compassionate"
-			"Name9"	"Saintly"
+			"Name7"	"Sensible"
+			"Name8"	"Compasivo"
+			"Name9"	"Santo"
 		}
 
 		AttributeLevel
 		{
-			"Name0"	"Unnaturally Poor"
-			"Name1"	"Poor"
-			"Name2"	"Average"
-			"Name3"	"Good"
-			"Name4"	"Exceptional"
-			"Name5"	"Outstanding"
+			"Name0"	"Pesimo"
+			"Name1"	"Malo"
+			"Name2"	"Normal"
+			"Name3"	"Bueno"
+			"Name4"	"Excepcional"
+			"Name5"	"Increible"
 		}
 
 		AbilityLevel
 		{
-			"Name0"	"Unknown"
-			"Name1"	"Novice"
-			"Name2"	"Practiced"
-			"Name3"	"Competent"
-			"Name4"	"Expert"
-			"Name5"	"Master"
+			"Name0"	"Desconocida"
+			"Name1"	"Novato"
+			"Name2"	"Practicante"
+			"Name3"	"Competente"
+			"Name4"	"Experto"
+			"Name5"	"Maestro"
 		}
 
 		DisciplineLevel
@@ -82,39 +82,39 @@ StringData
 
 		WillpowerLevel
 		{
-			"Name0"	"Spineless"
-			"Name1"	"Weak"
-			"Name2"	"Unassertive"
-			"Name3"	"Diffident"
-			"Name4"	"Certain"
-			"Name5"	"Confident"
-			"Name6"	"Determined"
-			"Name7"	"Controlled"
-			"Name8"	"Iron-Willed"
-			"Name9"	"Unshakable"
+			"Name0"	"Debil"
+			"Name1"	"Pusilanime"
+			"Name2"	"Inseguro"
+			"Name3"	"Vacilante"
+			"Name4"	"Seguro"
+			"Name5"	"Confiado"
+			"Name6"	"Tenaz"
+			"Name7"	"Firme"
+			"Name8"	"Ferreo"
+			"Name9"	"Implacable"
 		}
 
 		KineKindred
 		{
-			"Name0"	"Kine"
-			"Name1"	"Kindred"
+			"Name0"	"Ganado"
+			"Name1"	"Estirpe"
 		}
 
 		KineKindredDescriptions
 		{
-			"Name0"	"A normal human being."
-			"Name1"	"One of the vampiric undead."
+			"Name0"	"Un ser humano normal."
+			"Name1"	"Un vampiro."
 		}
 
 		CostStrings
 		{
-			"Name0"	"Cost"
-			"Name1"	"New"
-			"Name2"	"Raise"
-			"Name3"	"Current_Rating"
-			"Name4"	"Initial Cost"
-			"Name5" "Remaining Points"
-			"Name6" "Value"
+			"Name0"	"Coste"
+			"Name1"	"Nuevo"
+			"Name2"	"Aumentar"
+			"Name3"	"Nivel Actual"
+			"Name4"	"Coste Inicial"
+			"Name5" "Puntos Restantes"
+			"Name6" "Valor"
 		}
 
 		ClanStrs
@@ -131,16 +131,16 @@ StringData
 
 		AttributeGroup
 		{
-			"Name0"		"Physical"
-			"Name1"		"Social"
-			"Name2"		"Mental"
+			"Name0"		"Fisicos"
+			"Name1"		"Sociales"
+			"Name2"		"Mentales"
 		}
 
 		AbilityGroup
 		{
-			"Name0"		"Talents"
-			"Name1"		"Skills"
-			"Name2"		"Knowledges"
+			"Name0"		"Talentos"
+			"Name1"		"Habilidades"
+			"Name2"		"Conocimientos"
 		}
 
 		FeatGroup
@@ -152,10 +152,10 @@ StringData
 //				"Name3"		"Social"
 
 // New Headings: (6/15/04)
-			"Name0"		"Combat"
-			"Name1"		"Covert"
-			"Name2"		"Public"	// changed by wesp
-			"Name3"		"Soak"
+			"Name0"		"Combate"
+			"Name1"		"Ocultacion"
+			"Name2"		"Publico"	// changed by wesp
+			"Name3"		"Absorcion"
 		}
 
 		NuminaGroup
@@ -165,68 +165,68 @@ StringData
 
 		MiscStrs
 		{
-			"Name0"		"None"
-			"Name1"		"Melee Weapons"
-			"Name2"		"Ranged Weapons"
-			"Name3"		"Bloodpack"
-			"Name4"		"Blue Bloodpack"
-			"Name5"		"Elder Bloodpack"
-			"Name6"		"Hotkeys"
+			"Name0"		"Nada"
+			"Name1"		"Armas Melee"
+			"Name2"		"Armas a Distancia"
+			"Name3"		"Bolsa de Sangre"
+			"Name4"		"Bolsa de Sangre Azul"
+			"Name5"		"Bolsa de Sangre de Antiguo"
+			"Name6"		"Accesos Directos"
 		}
 
 		UIAppearanceStrs
 		{
-			"Name0"		"Head"
-			"Name1"		"Hair"
-			"Name2"		"Accessories"
+			"Name0"		"Cabeza"
+			"Name1"		"Pelo"
+			"Name2"		"Accesorios"
 			"Name3"		"Color"
 		}
 
 		UIMiscStrs	// Note: Some of these are buttons on the character editor
 		{
-			"Name0"		"Armor"
-			"Name1"		"Info"
-			"Name2"		"Appearance"
-			"Name3"		"Affiliation"
-			"Name4"		"Archetype"
-			"Name5"		"Cancel"
-			"Name6"		"Accept"
-			"Name7"		"Play"
-			"Name8"		"  You have %d Total XP to spend."
-			"Name9"		"  Kills = %d XP"
-			"Name10"		"  Dmg Inflicted = %3.2f XP"
+			"Name0"		"Armadura"
+			"Name1"		"Informacion"
+			"Name2"		"Apariencia"
+			"Name3"		"Afiliacion"
+			"Name4"		"Arquetipo"
+			"Name5"		"Cancelar"
+			"Name6"		"Acceptar"
+			"Name7"		"Jugar"
+			"Name8"		"  Tienes %d XP para gastar."
+			"Name9"		"  Muertes = %d XP"
+			"Name10"		"  Daño Infligido = %3.2f XP"
 			"Name11"		"  TeamWin = %d XP"
 			"Name12"		"  TeamLoss = %d XP"
 			"Name13"		"  RoundGoals %d X %1.2f = %2.2f XP"
 			"Name14"		"  SubGoals %d X %1.2f = %2.2f XP"
-			"Name15"		"Next"
-			"Name16"		"Reset Stats"
-			"Name17"		"Points Remaining"
-			"Name18"		"You must spend all points to continue."
-			"Name19"		"UP/DN Arrow Keys Scroll"
-			"Name20"		"Auto-Level is Off"	// Turn on 'Auto-Levelling', changed by wesp
-			"Name21"		"Auto-Level is On"	// Turn off 'Auto-Levelling', changed by wesp
-			"Name22"		"Auto-Spend Points"	// Auto Spend Points
-			"Name23"		"Turns Off automatic spending of experience points."	// Auto-Level Points
-			"Name24"		"Turns On automatic spending of experience points."	// Auto-Level Points
-			"Name25"		"Automatically spends your starting character points."	// Auto Spend Points
-			"Name26"		"Undoes all of your current changes."	// Reset Stats
-			"Name27"		"Exits without keeping your current changes."	// Cancel
-			"Name28"		"Exits without keeping your changes, returns to the Main Menu."	// Cancel
-			"Name29"		"Exits with your changes."	// Accept
-			"Name30"		"Cancelling will lose all character info changes you have made and return you to the Main Menu."	// ConfirmCancel
-			"Name31"		"Skip Intro"
-			"Name32"		"This controls skipping the intro scenes."
+			"Name15"		"Siguiente"
+			"Name16"		"Resetear"
+			"Name17"		"Puntos Restantes"
+			"Name18"		"Debes asignar todos los puntos para continuar."
+			"Name19"		"Botones Barra de Desplazamiento"
+			"Name20"		"AutoNivel Desact."	// Turn on 'Auto-Levelling', changed by wesp
+			"Name21"		"Autonivel Activado."	// Turn off 'Auto-Levelling', changed by wesp
+			"Name22"		"AutoAsignar Puntos"	// Auto Spend Points
+			"Name23"		"Desactiva la asignación automatica de puntos de experiencia."	// Auto-Level Points
+			"Name24"		"Activa la asignación automática de puntos de experiencia."	// Auto-Level Points
+			"Name25"		"Asigna automáticamente los puntos iniciales."	// Auto Spend Points
+			"Name26"		"Deshace todos los cambios recientes."	// Reset Stats
+			"Name27"		"Salir sin guardar los cambios recientes."	// Cancel
+			"Name28"		"Salir sin guardar los cambios y regresa al menu principal."	// Cancel
+			"Name29"		"Salir guardando los cambios."	// Accept
+			"Name30"		"Pulsando Cancelar se perderan todos los cambios que hayas hecho y te llevara de regreso al menu principal."	// ConfirmCancel
+			"Name31"		"Saltar Introduccion"
+			"Name32"		"Con esto te saltas las introducciones."
 		}
 
 		UIOccultStrs
 		{
-			"Name0"		"Number of blood points stored:"
+			"Name0"		"Numero de puntos de sangre acumulados:"
 		}
 
 		UIHudFeedbackOverrideStrs
 		{
-			"Name0"		"Overwhelming Strength"
+			"Name0"		"Fuerza Abrumadora"
 		}
 
 		UIMapList
@@ -245,14 +245,14 @@ StringData
 		
 		UIQuestStrs
 		{
-			"Name0"		"Active Quests"
-			"Name1"		"Completed"
-			"Name2"		"Failed"
+			"Name0"		"Misiones Activas"
+			"Name1"		"Completada"
+			"Name2"		"Fallida"
 			"Name3"		"Santa Monica"
-			"Name4"		"Downtown"
+			"Name4"		"Centro"
 			"Name5"		"Hollywood"
-			"Name6"		"Chinatown"
-			"Name7"		"Main"
+			"Name6"		"Barrio Chino"
+			"Name7"		"Principal"
 		}
 
 		UIInfoStrs
